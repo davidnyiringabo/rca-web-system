@@ -1,6 +1,6 @@
 const Academics = ()=>{
     return(
-        <div className="flex flex-col pl-9">
+        <div className="flex h-[110vh] flex-col pl-9">
 
             <h5 className="font-extrabold  mb-4">Academics   &gt;   <span className="text-[#523873]">Academic Year</span></h5>
             <p className="leading-[2rem]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
