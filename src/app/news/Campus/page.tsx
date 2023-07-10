@@ -1,9 +1,9 @@
 import Hero from "@/components/Hero/Hero"
 import Sidemenu from "@/components/Sidemenu/Sidemenu"
 import Footer from "@/components/Footer/Footer"
-import News from "./components/NewsComponent/NewsComponent"
+import News from "../components/NewsComponent/NewsComponent"
 import facebookIcon from "../../assets/facebook.png"
-import Newspaper from "./components/Newspaper/Newspaper"
+import Newspaper from "../components/Newspaper/Newspaper"
 import Link from "next/link"
 const About = ()=>{
 
@@ -11,7 +11,7 @@ const About = ()=>{
         <div>
             <Hero pageTitle={"RCA NewsPaper"} heroContent={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip."}/>
             <div className="dynamic-content-container p-12 flex">
-                <Sidemenu tabs={["Campus News", "In The News", "Events", "Free Square", "Notice"]}/>
+                <Sidemenu parent={"news"} tabs={["Campus News", "In The News", "Events", "Free Square", "Notice"]}/>
                 <div className="w-2/3 pl-4">
 
                     <h5 className="font-bold mb-4 ml-4">News Papers &gt; <Link href={"/"} className="text-[#523873]">Campus News</Link></h5>

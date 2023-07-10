@@ -1,6 +1,6 @@
 import Newspaper from "@/app/news/components/Newspaper/Newspaper"
 import Link from "next/link"
-import News from "./components/Publication/Publication"
+import News from "../components/Publication/Publication"
 
 const Research = ()=>{
     return(

@@ -6,7 +6,7 @@ interface Props{
 }
 const NewsComponent = ({date, title, content}: Props)=>{
     return(
-        <div className="w-full h-[198px] my-4 flex justify-between items-center border border-[#ccc] py-2 px-1 rounded-lg flex-col">
+        <div className="w-full h-[198px] my-4 flex justify-between items-center border border-[#ccc] py-2 px-1 rounded-lg">
             <div className="w-2/5 h-full rounded-lg bg-slate-100">
 
             </div>
