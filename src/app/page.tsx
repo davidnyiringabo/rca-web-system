@@ -29,7 +29,6 @@ const HomePage = () => {
   const partners: string[] = ["/assets/africaBank.png", "/assets/worldBank.png", "/assets/koica.png", "/assets/nesalogo.png", "/assets/RISALogo.png", "/assets/gizLogo.png", "/assets/rtbLogo.png", "/assets/rebLogo.png", "/assets/mineduc.png", "/assets/minict.png"]
   return (
     <div className="">
-      <Navbar />
       <div className="bg-purpleColor">
         {/* background */}
         <div className="bg-[url('../assets/background.png')] w-[100vw] h-[90vh] bg-50% bg-no-repeat bg-fullcover p-20 space-y-8">
@@ -196,7 +195,6 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }
