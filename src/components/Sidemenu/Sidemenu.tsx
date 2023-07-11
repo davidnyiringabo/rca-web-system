@@ -3,7 +3,7 @@ import Link from "next/link"
 
 interface Props {
     tabs: String[],
-    parent: String
+    parent: String,
 }
 const Sidemenu = ({tabs, parent}: Props)=>{
     return(
