@@ -279,6 +279,14 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./src/assets/playbutton.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/playbutton.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -367,7 +375,7 @@
       "id": "(app-client)/../node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/about_us/layout:static/chunks/app/about_us/layout.js"
       ],
       "async": false
     },
@@ -375,7 +383,7 @@
       "id": "(app-client)/../node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/about_us/layout:static/chunks/app/about_us/layout.js"
       ],
       "async": false
     },
@@ -503,7 +511,7 @@
       "id": "(app-client)/../node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/about_us/layout:static/chunks/app/about_us/layout.js"
       ],
       "async": false
     },
@@ -511,7 +519,7 @@
       "id": "(app-client)/../node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/about_us/layout:static/chunks/app/about_us/layout.js"
       ],
       "async": false
     },
@@ -634,12 +642,24 @@
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\playbutton.png": {
+      "id": "(app-client)/./src/assets/playbutton.png",
+      "name": "*",
+      "chunks": [
+        "app/about_us/layout:static/chunks/app/about_us/layout.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\layout": [
       "static/css/app/layout.css"
-    ]
+    ],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\layout": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\layout": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\page": []
   }
 }
