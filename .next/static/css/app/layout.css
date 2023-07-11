@@ -544,8 +544,8 @@ video {
 .mt-9 {
   margin-top: 2.25rem;
 }
-.mt-\[-3px\] {
-  margin-top: -3px;
+.mt-\[-9px\] {
+  margin-top: -9px;
 }
 .flex {
   display: flex;
@@ -858,6 +858,10 @@ video {
 .bg-\[\#\] {
   background-color: #;
 }
+.bg-\[\#e3e2e2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 226 226 / var(--tw-bg-opacity));
+}
 .bg-\[\#f8f8f8\] {
   --tw-bg-opacity: 1;
   background-color: rgb(248 248 248 / var(--tw-bg-opacity));
@@ -1131,7 +1135,7 @@ video {
 
 
 .lower-navbar{
-  background: linear-gradient(180deg, #523873 0%, rgba(75, 75, 75, 0.00) 100%);
+  background: linear-gradient(180deg, #523873 0%, rgba(69, 69, 69, 0) 100%);
 }
 .backs{
 background-size:full;
