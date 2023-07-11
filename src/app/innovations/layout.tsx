@@ -10,7 +10,7 @@ export default function PageLayout({
   }) {
     return (
       <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Hero pageTitle={"RCA Innovation Hub"} heroContent={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip."}/>
         <div className="dynamic-content-container p-12 flex">
                 <Sidemenu parent={"innovations"} tabs={["Research and Publications", "Startups", "Research In News", "Fundarisations"]}/>
@@ -18,7 +18,7 @@ export default function PageLayout({
                 {children}
         </div>
           
-        <Footer/>
+        {/* <Footer/> */}
       </>
     )
   }

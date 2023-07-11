@@ -10,14 +10,14 @@ export default function AboutUsLayout({
   }) {
     return (
       <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Hero pageTitle={"Alumni Association"} heroContent={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip."}/>
         <div className="dynamic-content-container p-12 flex">
             <Sidemenu parent={"alumni"} tabs={["contributions", "Alumni Admissions", "Living Styles After College", "Galley and Videos", "In The News"]}/>
             {children}
         </div>
         
-        <Footer/>
+        {/* <Footer/> */}
       </>
     )
   }
