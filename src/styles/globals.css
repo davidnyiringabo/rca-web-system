@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+  font-family: poppins !important;
+}
+
+
+.lower-navbar{
+  background: linear-gradient(180deg, #7f6b9b 0%, rgba(75, 75, 75, 0.00) 100%);
+}
+.backs{
+background-size:full;
+
+}
