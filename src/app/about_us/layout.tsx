@@ -7,6 +7,7 @@ export default function AboutUsLayout({
   }: {
     children: React.ReactNode
   }) {
+
     return (
       <>
         <Navbar/>

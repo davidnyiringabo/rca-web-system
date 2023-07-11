@@ -14,7 +14,9 @@ const Navbar = ()=>{
             <div className="w-full flex justify-between px-6 lower-navbar py-6 items-center text-white">
                 <Image src={logo} alt={""}/>
                 <div className="flex gap-6 bg-[#]">
-                    <Link href={"/about_us"}>About us</Link>
+                    <Link href={"/about_us"}>
+                        About us
+                    </Link>
                     <Link href={"/academics"}>Academics</Link>
                     <Link href={"/news"}>News</Link>
                     <Link href={"/innovations"}>Innovations</Link>
