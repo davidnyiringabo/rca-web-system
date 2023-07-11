@@ -1,7 +1,7 @@
 import Button from "../components/Button";
 import Navbar from "../components/Navbar/Navbar";
 import '../styles/globals.css'
-import { HiArrowSmRight } from 'react-icons/hi'
+// import { HiArrowSmRight } from 'react-icons/hi'
 import risa from '../assets/RISALogo.png'
 import rtb from '../assets/rtbLogo.png'
 import giz from '../assets/gizLogo.png'
@@ -19,7 +19,7 @@ import vission from '../assets/vision 1.png'
 import goals from '../assets/goal 1.png'
 import mainImg from '../assets/Intersect.png'
 import img2 from '../assets/Intersect(1).png'
-import { FaChevronLeft } from "react-icons/fa"
+// import { FaChevronLeft } from "react-icons/fa"
 import Footer from "../components/Footer/Footer"
 import Pathvec from '../assets/vectors/Pathvec'
 import { pathData } from "../data/adminPath";
@@ -38,7 +38,7 @@ const HomePage = () => {
           <p className="text-white text-lg">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons adipisci velit, sed quia<br />
             non numquam eius modi ullma tempora incidunt ut labore et dolore magnam aliquam.</p>
           <div className="flex w-1/2 gap-12 translate-y-64">
-            <Button text="View Academic Structure" className="bg-purpleColor p-4 rounded-lg text-white " icon={<HiArrowSmRight />} />
+            {/* <Button text="View Academic Structure" className="bg-purpleColor p-4 rounded-lg text-white " icon={<HiArrowSmRight />} /> */}
             <Button text="Student or Staff? Use Portal" className="text-purpleColor p-4 rounded-lg bg-[#D9D9D9] border border-purpleColor" />
           </div>
         </div>
@@ -82,7 +82,7 @@ const HomePage = () => {
               Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
             <p className="text-[#4343436E]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
               Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
-            <Button text="Continue Reading" className="bg-purpleColor p-4 rounded-xl text-white " icon={<HiArrowSmRight />} />
+            {/* <Button text="Continue Reading" className="bg-purpleColor p-4 rounded-xl text-white " icon={<HiArrowSmRight />} /> */}
           </div>
 
         </div>
@@ -103,7 +103,7 @@ const HomePage = () => {
         <div className=" h-[50vh] basis-1/2 flex justify-center py-8">
           <div className="w-12 h-12 rounded-full flex items-center justify-center bg-[url('../assets/trapvec.png')] border border-purpleColor translate-x-6 translate-y-36 z-20">
             <div className="text-purpleColor">
-              <FaChevronLeft />
+              {/* <FaChevronLeft /> */}
             </div>
           </div>
           <div className="relative bg-white  w-2/3 rounded-lg">
@@ -111,7 +111,7 @@ const HomePage = () => {
           </div>
           <div className="w-12 h-12 rounded-full flex items-center justify-center bg-white border border-purpleColor -translate-x-6 translate-y-36">
             <div className="rotate-180 text-purpleColor" >
-              <FaChevronLeft />
+              {/* <FaChevronLeft /> */}
             </div>
           </div>
 
@@ -164,7 +164,7 @@ const HomePage = () => {
           <p className="text-[#4343436E]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
           <p className="text-[#4343436E]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
           <p className="text-[#4343436E]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
-          <Button text="Know Even More About Our Curriculium" className="bg-purpleColor p-4 rounded-lg text-white " icon={<HiArrowSmRight />} />
+          {/* <Button text="Know Even More About Our Curriculium" className="bg-purpleColor p-4 rounded-lg text-white " icon={<HiArrowSmRight />} /> */}
         </div>
         <div className="space-y-12 basis-1/2 px-auto">
           <div className="bg-white h-32 w-3/4"></div>
