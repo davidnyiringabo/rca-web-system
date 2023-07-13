@@ -1,14 +1,14 @@
-import Hero from "@/components/Hero/Hero"
-import Sidemenu from "@/components/Sidemenu/Sidemenu"
-import Footer from "@/components/Footer/Footer"
-import studentsONe from "../../../assets/studentsOne.JPG"
+import Hero from "@/src/components/Hero/Hero"
+import Sidemenu from "@/src/components/Sidemenu/Sidemenu"
+import Footer from "@/src/components/Footer/Footer"
+import studentsONe from "../../../assets/newThree.jpg"
 import manyStudents from "../../../assets/manyStudents.jpeg"
 import Image from "next/image"
 const About = ()=>{
 
     return(
         <div className="w-full px-9">
-            <h5 className="font-extrabold mb-9">About   &gt;   <span className="text-[#523873]">Organisation</span></h5>
+            <h5 className="font-extrabold mb-9">About   &gt;   <span className="text-[#523873]">Campuses and Facilities</span></h5>
 
             <p className="leading-[2rem]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
             <p className="leading-[2rem] my-9">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons, adipisci velit, sed quia non numquam eius modi ullma tempora incidunt ut labore et dolore magnam aliquam</p>
