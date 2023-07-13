@@ -1,6 +1,8 @@
 const OtherArticle = ()=>{
     return(
-        
+        <div>
+            
+        </div>
     )
 
 }

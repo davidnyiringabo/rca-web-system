@@ -1,10 +1,16 @@
 import '../styles/globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+// import { Inter } from 'next/font/google'
 import Navbar from '@/src/components/Navbar/Navbar'
 import Footer from '@/src/components/Footer/Footer'
+import { Poppins } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const poppins = Poppins(
+  {
+    subsets: ['latin'],
+    weight: '400'
+  }
+)
 
 export const metadata: Metadata = {
   title: 'Rwanda Coding Academy',
@@ -21,7 +27,7 @@ export default function RootLayout({
       <head>
         <link rel='icon' href='/favicon.png'/>
       </head>
-      <body>
+      <body className={poppins.className}>
         <Navbar/>
         {children}
         <Footer/>
