@@ -1,7 +1,7 @@
-import Footer from "@/components/Footer/Footer"
-import Hero from "@/components/Hero/Hero"
-import Sidemenu from "@/components/Sidemenu/Sidemenu"
-import Navbar from "@/components/Navbar/Navbar"
+import Footer from "@/src/components/Footer/Footer"
+import Hero from "@/src/components/Hero/Hero"
+import Sidemenu from "@/src/components/Sidemenu/Sidemenu"
+import Navbar from "@/src/components/Navbar/Navbar"
 
 export default function PageLayout({
     children, // will be a page or nested layout
