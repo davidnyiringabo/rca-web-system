@@ -1,4 +1,5 @@
-
+import Image from "next/image"
+import newOne from "../../../../assets/newOne.jpg"
 interface Props{
     title: String, 
     date: String,
@@ -10,7 +11,8 @@ interface Props{
 const Newspaper = ({title, date, appreciations, feedbackMessages, content, buttonText}: Props)=>{
     return(
         <div className="w-full h-full flex flex-col items-start gap-2">
-            <div className="w-4/5  h-[368px] bg-[#f8f8f8]">
+            <div className="w-4/5  bg-[#f8f8f8]">
+                <Image src={newOne} alt="student" className="w-full" />
             </div>
 
             <h4 className="text-2xl font-bold">{title}</h4>

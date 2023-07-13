@@ -40,9 +40,121 @@
         "async": false
       }
     },
+    "(app-client)/../node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/../node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/../node_modules/next/dist/client/image-component.js": {
       "*": {
         "id": "(sc_client)/../node_modules/next/dist/client/image-component.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/logo.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/search.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/search.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/facebook.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/facebook.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/github.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/github.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/instagram.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/instagram.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/reddit.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/reddit.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/linkedin.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/linkedin.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/slack.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/slack.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/twitter.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/twitter.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/whatsapp.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/whatsapp.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/snapchat.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/snapchat.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/product.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/product.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/evernote.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/evernote.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -168,113 +280,25 @@
         "async": false
       }
     },
-    "(app-client)/../node_modules/next/dist/client/link.js": {
+    "(app-client)/./src/assets/newOne.jpg": {
       "*": {
-        "id": "(sc_client)/../node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./src/assets/newOne.jpg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/assets/logo.png": {
+    "(app-client)/./src/assets/newTwo.jpg": {
       "*": {
-        "id": "(sc_client)/./src/assets/logo.png",
+        "id": "(sc_client)/./src/assets/newTwo.jpg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/assets/search.png": {
+    "(app-client)/./src/assets/newThree.jpg": {
       "*": {
-        "id": "(sc_client)/./src/assets/search.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/facebook.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/facebook.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/github.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/github.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/instagram.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/instagram.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/reddit.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/reddit.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/linkedin.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/linkedin.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/slack.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/slack.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/twitter.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/twitter.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/whatsapp.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/whatsapp.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/snapchat.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/snapchat.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/product.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/product.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/evernote.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/evernote.png",
+        "id": "(sc_client)/./src/assets/newThree.jpg",
         "name": "*",
         "chunks": [],
         "async": false
@@ -283,6 +307,14 @@
     "(app-client)/./src/assets/playbutton.png": {
       "*": {
         "id": "(sc_client)/./src/assets/playbutton.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/newFour.jpg": {
+      "*": {
+        "id": "(sc_client)/./src/assets/newFour.jpg",
         "name": "*",
         "chunks": [],
         "async": false
@@ -371,147 +403,11 @@
       ],
       "async": false
     },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\node_modules\\next\\dist\\client\\image-component.js": {
-      "id": "(app-client)/../node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/about_us/layout:static/chunks/app/about_us/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\node_modules\\next\\dist\\esm\\client\\image-component.js": {
-      "id": "(app-client)/../node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/about_us/layout:static/chunks/app/about_us/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\RISALogo.png": {
-      "id": "(app-client)/./src/assets/RISALogo.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\rtbLogo.png": {
-      "id": "(app-client)/./src/assets/rtbLogo.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\gizLogo.png": {
-      "id": "(app-client)/./src/assets/gizLogo.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\mineduc.png": {
-      "id": "(app-client)/./src/assets/mineduc.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\minict.png": {
-      "id": "(app-client)/./src/assets/minict.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\koica.png": {
-      "id": "(app-client)/./src/assets/koica.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\nesalogo.png": {
-      "id": "(app-client)/./src/assets/nesalogo.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\rebLogo.png": {
-      "id": "(app-client)/./src/assets/rebLogo.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\worldBank.png": {
-      "id": "(app-client)/./src/assets/worldBank.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\africaBank.png": {
-      "id": "(app-client)/./src/assets/africaBank.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\mission 1.png": {
-      "id": "(app-client)/./src/assets/mission 1.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\vision 1.png": {
-      "id": "(app-client)/./src/assets/vision 1.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\goal 1.png": {
-      "id": "(app-client)/./src/assets/goal 1.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\Intersect.png": {
-      "id": "(app-client)/./src/assets/Intersect.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\Intersect(1).png": {
-      "id": "(app-client)/./src/assets/Intersect(1).png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\David\\Desktop\\frontEnd-service\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/../node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/about_us/layout:static/chunks/app/about_us/layout.js"
+        "app/news/page:static/chunks/app/news/page.js"
       ],
       "async": false
     },
@@ -519,7 +415,23 @@
       "id": "(app-client)/../node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/about_us/layout:static/chunks/app/about_us/layout.js"
+        "app/news/page:static/chunks/app/news/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\node_modules\\next\\dist\\client\\image-component.js": {
+      "id": "(app-client)/../node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/news/page:static/chunks/app/news/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\node_modules\\next\\dist\\esm\\client\\image-component.js": {
+      "id": "(app-client)/../node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/news/page:static/chunks/app/news/page.js"
       ],
       "async": false
     },
@@ -643,23 +555,178 @@
       ],
       "async": false
     },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\RISALogo.png": {
+      "id": "(app-client)/./src/assets/RISALogo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\rtbLogo.png": {
+      "id": "(app-client)/./src/assets/rtbLogo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\gizLogo.png": {
+      "id": "(app-client)/./src/assets/gizLogo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\mineduc.png": {
+      "id": "(app-client)/./src/assets/mineduc.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\minict.png": {
+      "id": "(app-client)/./src/assets/minict.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\koica.png": {
+      "id": "(app-client)/./src/assets/koica.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\nesalogo.png": {
+      "id": "(app-client)/./src/assets/nesalogo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\rebLogo.png": {
+      "id": "(app-client)/./src/assets/rebLogo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\worldBank.png": {
+      "id": "(app-client)/./src/assets/worldBank.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\africaBank.png": {
+      "id": "(app-client)/./src/assets/africaBank.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\mission 1.png": {
+      "id": "(app-client)/./src/assets/mission 1.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\vision 1.png": {
+      "id": "(app-client)/./src/assets/vision 1.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\goal 1.png": {
+      "id": "(app-client)/./src/assets/goal 1.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\Intersect.png": {
+      "id": "(app-client)/./src/assets/Intersect.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\Intersect(1).png": {
+      "id": "(app-client)/./src/assets/Intersect(1).png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\newOne.jpg": {
+      "id": "(app-client)/./src/assets/newOne.jpg",
+      "name": "*",
+      "chunks": [
+        "app/news/page:static/chunks/app/news/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\newTwo.jpg": {
+      "id": "(app-client)/./src/assets/newTwo.jpg",
+      "name": "*",
+      "chunks": [
+        "app/news/page:static/chunks/app/news/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\newThree.jpg": {
+      "id": "(app-client)/./src/assets/newThree.jpg",
+      "name": "*",
+      "chunks": [
+        "app/news/page:static/chunks/app/news/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\playbutton.png": {
       "id": "(app-client)/./src/assets/playbutton.png",
       "name": "*",
       "chunks": [
-        "app/about_us/layout:static/chunks/app/about_us/layout.js"
+        "app/news/layout:static/chunks/app/news/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\newFour.jpg": {
+      "id": "(app-client)/./src/assets/newFour.jpg",
+      "name": "*",
+      "chunks": [
+        "app/news/page:static/chunks/app/news/page.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\layout": [
       "static/css/app/layout.css"
     ],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\layout": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\layout": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\page": []
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\campus_life\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\campus_life\\layout": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\layout": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\Fundarisations\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\news\\layout": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\news\\page": []
   }
 }

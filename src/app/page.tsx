@@ -31,18 +31,18 @@ const HomePage = () => {
     <div className="">
       <div className="bg-purpleColor">
         {/* background */}
-        <div className="bg-[url('../assets/background.png')] w-[100vw] h-[90vh] bg-50% bg-no-repeat bg-fullcover p-20 space-y-8">
+        <div className="bg-[url('../assets/background.png')] w-[100vw] h-[100vh] bg-50% bg-no-repeat bg-fullcover p-20 space-y-8">
           <p className="text-white">Leading Through Digital Innovation</p>
-          <h3 className=" text-outline-white text-5xl font-semibold ">Welcome To</h3>
+          <h3 className=" text-outline-white text-5xl font-semibold">Welcome To</h3>
           <p className="font-semibold text-white text-6xl">Rwanda Coding Academy</p>
           <p className="text-white text-lg">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons adipisci velit, sed quia<br />
             non numquam eius modi ullma tempora incidunt ut labore et dolore magnam aliquam.</p>
-          <div className="flex w-1/2 gap-12 translate-y-64">
-            {/* <Button text="View Academic Structure" className="bg-purpleColor p-4 rounded-lg text-white " icon={<HiArrowSmRight />} /> */}
-            <Button text="Student or Staff? Use Portal" className="text-purpleColor p-4 rounded-lg bg-[#D9D9D9] border border-purpleColor" />
+          <div className="flex w-1/2 gap-12 translate-y-40">
+            <Button text="View Academic Structure" className="bg-purpleColor p-4 rounded-lg text-white"/>
+            <Button text="Student or Staff? Use Portal" className="text-purpleColor p-4 rounded-lg bg-white border-none" />
           </div>
         </div>
-        <div className="h-32 w-full"></div>
+        <div className="h-[22vh] w-full"></div>
       </div>
       {/* Stake holder */}
       <div className="w-full bg-white">
@@ -82,7 +82,7 @@ const HomePage = () => {
               Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
             <p className="text-[#4343436E]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
               Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
-            {/* <Button text="Continue Reading" className="bg-purpleColor p-4 rounded-xl text-white " icon={<HiArrowSmRight />} /> */}
+            <Button text="Continue Reading" className="bg-purpleColor p-4 rounded-xl text-white "/>
           </div>
 
         </div>
@@ -164,7 +164,7 @@ const HomePage = () => {
           <p className="text-[#4343436E]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
           <p className="text-[#4343436E]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
           <p className="text-[#4343436E]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
-          {/* <Button text="Know Even More About Our Curriculium" className="bg-purpleColor p-4 rounded-lg text-white " icon={<HiArrowSmRight />} /> */}
+          <Button text="Know Even More About Our Curriculium" className="bg-purpleColor p-4 rounded-lg text-white"/>
         </div>
         <div className="space-y-12 basis-1/2 px-auto">
           <div className="bg-white h-32 w-3/4"></div>
@@ -176,9 +176,9 @@ const HomePage = () => {
 
       </div>
       {/* Our Numbers */}
-      <div className="bg-white w-full ">
-        <p className="text-purpleColor font-semibold text-md">OUR NUMBERS</p>
-        <p className="text-textGray font-semibold text-lg ">Lets Get To Numbers</p>
+      <div className="bg-white w-full">
+        <p className="text-purpleColor font-semibold text-md mt-9 mb-3 pl-[3rem]">OUR NUMBERS</p>
+        <p className="text-textGray font-semibold text-lg mb-9 pl-[3rem]">Lets Get To Numbers</p>
         <div className="bg-purpleColor relative items-end ">
           <NumGraph />
         </div>

@@ -12,7 +12,7 @@ const Navbar = ()=>{
                 <span className="flex gap-1"><Link href={"/"}>Student</Link> / <Link href={"/"}>Staff Portal</Link></span>
             </div>
             <div className="w-full flex justify-between px-6 lower-navbar py-6 items-center text-white">
-                <Image src={logo} alt={""}/>
+                <Link href={"/"}><Image src={logo} alt={""}/></Link>
                 <div className="flex gap-6 bg-[#]">
                     <Link href={"/about_us"}>
                         About us

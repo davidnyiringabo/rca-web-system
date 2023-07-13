@@ -1,5 +1,7 @@
 {
   "/page": "app/page.js",
-  "/academics/page": "app/academics/page.js",
-  "/about_us/page": "app/about_us/page.js"
+  "/campus_life/page": "app/campus_life/page.js",
+  "/innovations/page": "app/innovations/page.js",
+  "/news/page": "app/news/page.js",
+  "/innovations/Fundarisations/page": "app/innovations/Fundarisations/page.js"
 }
