@@ -5,36 +5,36 @@
       "static/chunks/main-app.js",
       "static/chunks/app/news/page.js"
     ],
+    "/news/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/news/layout.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/news/layout": [
+    "/alumni/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/news/layout.js"
+      "static/chunks/app/alumni/page.js"
     ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/alumni/page": [
+    "/alumni/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/alumni/page.js"
+      "static/chunks/app/alumni/layout.js"
     ],
     "/alumni/Alumni/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/alumni/Alumni/page.js"
-    ],
-    "/alumni/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/alumni/layout.js"
     ],
     "/admissions/page": [
       "static/chunks/webpack.js",

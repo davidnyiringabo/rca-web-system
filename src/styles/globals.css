@@ -6,6 +6,9 @@
 
   font-family: poppins !important;
 }
+/* body{
+  width: 100vw !important;
+} */
 ::-webkit-scrollbar {
   width: 10px;
 }
