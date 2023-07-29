@@ -1,7 +1,10 @@
 {
   "/page": "app/page.js",
-  "/innovations/page": "app/innovations/page.js",
   "/about_us/page": "app/about_us/page.js",
-  "/academics/page": "app/academics/page.js",
-  "/admissions/page": "app/admissions/page.js"
+  "/admissions/page": "app/admissions/page.js",
+  "/innovations/page": "app/innovations/page.js",
+  "/alumni/page": "app/alumni/page.js",
+  "/contact_us/page": "app/contact_us/page.js",
+  "/campus_life/page": "app/campus_life/page.js",
+  "/news/page": "app/news/page.js"
 }

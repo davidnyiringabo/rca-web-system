@@ -570,9 +570,6 @@ video {
 .mt-\[-9px\] {
   margin-top: -9px;
 }
-.mt-\[-3px\] {
-  margin-top: -3px;
-}
 .flex {
   display: flex;
 }
@@ -919,14 +916,8 @@ video {
 .bg-\[url\(\'\.\.\/assets\/trapvec\.png\'\)\] {
   background-image: url(/_next/static/media/trapvec.96a2f8e4.png);
 }
-.bg-\[url\(\'\/images\/landingbg\.JPG\'\)\] {
-  background-image: url('/images/landingbg.JPG');
-}
 .bg-50\% {
   background-size: 100%;
-}
-.bg-cover {
-  background-size: cover;
 }
 .bg-fullcover {
   background-position: center;
