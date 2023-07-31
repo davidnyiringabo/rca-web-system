@@ -11,3 +11,7 @@
 .lower-navbar{
   background: linear-gradient(180deg, #7f6b9b 0%, rgba(75, 75, 75, 0.00) 100%);
 }
+
+*{
+  box-sizing: border-box;
+}

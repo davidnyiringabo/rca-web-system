@@ -1,0 +1,31 @@
+import StudentPortalFooter from '@/components/Footer/StudentPortalFooter'
+import StudentPortalNavbar from '@/components/Navbar/StudentPortalNavbar'
+import AdminPortalSidebar from '@/components/Sidemenu/AdminPortalSidebar'
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata: Metadata = {
+        title: 'Admin Portal',
+        description: 'This is the admin portal for the RCA Web',
+}
+
+export default function AdminPortalLayout({
+        children,
+}: {
+        children: React.ReactNode
+}) {
+        return (
+                <div className='h-full overflow-hidden w-full'>
+                        <StudentPortalNavbar />
+                        <div className="flex flex-row h-[75vh] my-1 px-3 gap-3">
+                                <AdminPortalSidebar />
+                                <div className="w-[80vw]">
+                                        {children}
+                                </div>
+                        </div>
+                        <StudentPortalFooter />
+                </div>
+        )
+}

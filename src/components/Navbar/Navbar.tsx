@@ -6,7 +6,7 @@ import search from "../../assets/search.png"
 const Navbar = () => {
     return (
         <div className="w-full">
-            <div className="upper-container w-full flex justify-between px-9 py-4">
+            <div className="upper-container w-full flex justify-between px-9 py-2">
                 <h6>Welcome to Rwanda Coding Academy</h6>
 
                 <span className="flex gap-1"><Link href={"/"}>Student</Link> / <Link href={"/"}>Staff Portal</Link></span>
