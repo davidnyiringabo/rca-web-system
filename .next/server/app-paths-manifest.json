@@ -1,10 +1,8 @@
 {
   "/page": "app/page.js",
-  "/about_us/page": "app/about_us/page.js",
-  "/admissions/page": "app/admissions/page.js",
   "/innovations/page": "app/innovations/page.js",
-  "/alumni/page": "app/alumni/page.js",
-  "/contact_us/page": "app/contact_us/page.js",
-  "/campus_life/page": "app/campus_life/page.js",
-  "/news/page": "app/news/page.js"
+  "/about_us/page": "app/about_us/page.js",
+  "/innovations/Startups/page": "app/innovations/Startups/page.js",
+  "/innovations/Research/page": "app/innovations/Research/page.js",
+  "/innovations/Fundarisations/page": "app/innovations/Fundarisations/page.js"
 }

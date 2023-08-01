@@ -319,14 +319,6 @@
         "chunks": [],
         "async": false
       }
-    },
-    "(app-client)/./src/assets/newFour.jpg": {
-      "*": {
-        "id": "(sc_client)/./src/assets/newFour.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -415,7 +407,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/innovations/page:static/chunks/app/innovations/page.js"
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
       ],
       "async": false
     },
@@ -423,7 +415,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/innovations/page:static/chunks/app/innovations/page.js"
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
       ],
       "async": false
     },
@@ -431,7 +423,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/innovations/page:static/chunks/app/innovations/page.js"
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
       ],
       "async": false
     },
@@ -439,7 +431,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/innovations/page:static/chunks/app/innovations/page.js"
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
       ],
       "async": false
     },
@@ -695,7 +687,7 @@
       "id": "(app-client)/./src/assets/newThree.jpg",
       "name": "*",
       "chunks": [
-        "app/innovations/page:static/chunks/app/innovations/page.js"
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
       ],
       "async": false
     },
@@ -711,7 +703,7 @@
       "id": "(app-client)/./src/assets/newOne.jpg",
       "name": "*",
       "chunks": [
-        "app/innovations/page:static/chunks/app/innovations/page.js"
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
       ],
       "async": false
     },
@@ -719,15 +711,7 @@
       "id": "(app-client)/./src/assets/newTwo.jpg",
       "name": "*",
       "chunks": [
-        "app/innovations/page:static/chunks/app/innovations/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\newFour.jpg": {
-      "id": "(app-client)/./src/assets/newFour.jpg",
-      "name": "*",
-      "chunks": [
-        "app/news/page:static/chunks/app/news/page.js"
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
       ],
       "async": false
     }
@@ -738,20 +722,11 @@
     ],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\layout": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\layout": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\campus_life\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\campus_life\\layout": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\contact_us\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\contact_us\\layout": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\news\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\news\\layout": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\alumni\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\alumni\\layout": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\admissions\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\admissions\\layout": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\layout": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\page": []
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\Startups\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\Research\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\Fundarisations\\page": []
   }
 }
