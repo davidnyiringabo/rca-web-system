@@ -1,4 +1,4 @@
-import Newspaper from "@/app/news/components/Newspaper/Newspaper"
+import Newspaper from "../../news/components/Newspaper/Newspaper"
 import Link from "next/link"
 import News from "../components/Publication/Publication"
 import newOne from "../../../assets/newOne.jpg"

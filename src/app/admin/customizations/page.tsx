@@ -1,18 +1,11 @@
 import React from 'react'
-const AdminCustomization = () => {
-        
+import DropPart from './DropPart';
+const AdminCustomization: React.FC = () => {
         return (
                 <div className='w-full h-full overflow-y-auto overflow-x-hidden p-2 text-sm'>
                         <h2 className='text-[17px] font-medium  text-[rgba(0,0,0,0.7)] my-2'>Customization of the Website</h2>
                         <p className='text-[rgba(67,67,67,0.43)] my-2'>Landing Page</p>
-                        <div className="my-2 grid grid-cols-3 grid-rows-2 gap-3">
-                                <div className="bg-[rgba(67,67,67,0.03)]  h-[300px] rounded-md border-[2px] border-[rgba(67,67,67,0.09)]"></div>
-                                <div className="bg-[rgba(67,67,67,0.03)]  h-[300px] rounded-md border-[2px] border-[rgba(67,67,67,0.09)]"></div>
-                                <div className="bg-[rgba(67,67,67,0.03)]  h-[300px] rounded-md border-[2px] border-[rgba(67,67,67,0.09)]"></div>
-                                <div className="bg-[rgba(67,67,67,0.03)]  h-[300px] rounded-md border-[2px] border-[rgba(67,67,67,0.09)]"></div>
-                                <div className="bg-[rgba(67,67,67,0.03)]  h-[300px] rounded-md border-[2px] border-[rgba(67,67,67,0.09)]"></div>
-                                <div className="bg-[rgba(67,67,67,0.03)]  h-[300px] rounded-md border-[2px] border-[rgba(67,67,67,0.09)]"></div>
-                        </div>
+                        <DropPart />
                         <div className="my-10 flex flex-col md:flex-row gap-2 md:gap-5">
                                 <div className='w-full md:w-[50%]'>
                                         <p className='text-[rgba(67,67,67,0.43)] my-2'>About Us Text</p>

@@ -1,23 +1,22 @@
-import Newspaper from "@/app/news/components/Newspaper/Newspaper"
+import Newspaper from "../../news/components/Newspaper/Newspaper"
 import Link from "next/link"
 import News from "../components/Publication/Publication"
 import newOne from "../../../assets/newOne.jpg"
 import newTwo from "../../../assets/newTwo.jpg"
 import newThree from "../../../assets/newThree.jpg"
 import Image from "next/image"
-
 const Research = () => {
     return (
         <div className="w-full">
 
-            <h5 className="font-bold mb-4 ml-4">Innovation Hub &gt; <Link href={"/"} className="text-[#523873]">Startups</Link></h5>
+            <h5 className="font-bold mb-4 ml-4">Innovation Hub &gt; <Link href={"/"} className="text-[#523873]">Fundarisations</Link></h5>
             <div className="w-full h-[50vh] flex justify-evenly px-2">
                 <div className="w-1/2 h-full bg-[#f8f8f8] mx-1">
-                <Image src={newTwo} alt="student" className="w-full" />
+                    <Image src={newTwo} alt="student" className="w-full" />
 
                 </div>
                 <div className="w-1/2 h-full bg-[#f8f8f8] mx-1">
-                <Image src={newThree} alt="student" className="w-full" />
+                    <Image src={newThree} alt="student" className="w-full" />
 
                 </div>
             </div>
@@ -31,6 +30,7 @@ const Research = () => {
                         <News image={newOne} date={"Sunday 24th September, 2020"} title={"World Bank Fund RCA tomorrow"} content={"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons, adipisci . . ."} />
                         <News image={newTwo} date={"Sunday 24th September, 2020"} title={"World Bank Fund RCA tomorrow"} content={"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons, adipisci . . ."} />
                         <News image={newThree} date={"Sunday 24th September, 2020"} title={"World Bank Fund RCA tomorrow"} content={"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons, adipisci . . ."} />
+
                     </div>
                 </div>
             </div>

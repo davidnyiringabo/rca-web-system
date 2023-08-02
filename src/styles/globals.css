@@ -1,22 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 :root {
 
   font-family: poppins !important;
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
 }
 
 
-.lower-navbar {
-  background: linear-gradient(180deg, #7f6b9b 0%, rgba(75, 75, 75, 0.00) 100%);
+.lower-navbar{
+  background: linear-gradient(180deg, #523873 0%, rgba(75, 75, 75, 0.00) 100%);
+}
+.backs{
+background-size:full;
+
+}
+*{
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: 'Poppins', sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 5px;
 
 }
@@ -28,4 +55,4 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555;
-}
+} */

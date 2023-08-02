@@ -1,4 +1,4 @@
-import Newspaper from "@/app/news/components/Newspaper/Newspaper"
+import Newspaper from "../../news/components/Newspaper/Newspaper"
 import Link from "next/link"
 import News from "../components/Publication/Publication"
 import newOne from "../../../assets/newOne.jpg"
@@ -9,7 +9,7 @@ const Research = () => {
     return (
         <div className="w-full">
 
-            <h5 className="font-bold mb-4 ml-4">Innovation Hub &gt; <Link href={"/"} className="text-[#523873]">Research and Publications</Link></h5>
+            <h5 className="font-bold mb-4 ml-4">Innovation Hub &gt; <Link href={"/"} className="text-[#523873]">Fundarisations</Link></h5>
             <div className="w-full h-[50vh] flex justify-evenly px-2">
                 <div className="w-1/2 h-full bg-[#f8f8f8] mx-1">
                     <Image src={newTwo} alt="student" className="w-full" />

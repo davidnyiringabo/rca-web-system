@@ -1,1 +1,1 @@
-Rwanda Coding Academy Information management system frontend service
+Rwanda Coding Academy information management system frontend service

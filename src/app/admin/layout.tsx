@@ -1,6 +1,7 @@
-import StudentPortalFooter from '@/components/Footer/StudentPortalFooter'
-import StudentPortalNavbar from '@/components/Navbar/StudentPortalNavbar'
-import AdminPortalSidebar from '@/components/Sidemenu/AdminPortalSidebar'
+
+import StudentPortalFooter from '@/src/components/Footer/StudentPortalFooter'
+import StudentPortalNavbar from '@/src/components/Navbar/StudentPortalNavbar'
+import AdminPortalSidebar from '@/src/components/Sidemenu/AdminPortalSidebar'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
