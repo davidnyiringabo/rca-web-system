@@ -1,6 +1,6 @@
 import React from 'react'
-
 const AdminCustomization = () => {
+        
         return (
                 <div className='w-full h-full overflow-y-auto overflow-x-hidden p-2 text-sm'>
                         <h2 className='text-[17px] font-medium  text-[rgba(0,0,0,0.7)] my-2'>Customization of the Website</h2>

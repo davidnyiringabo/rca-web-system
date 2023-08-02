@@ -21,7 +21,7 @@ export default function AdminPortalLayout({
                         <StudentPortalNavbar />
                         <div className="flex flex-row h-[75vh] my-1 px-3 gap-3">
                                 <AdminPortalSidebar />
-                                <div className="w-[80vw]">
+                                <div className="w-[90vw] md:w-[75vw] lg:w-[80vw]">
                                         {children}
                                 </div>
                         </div>

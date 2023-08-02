@@ -8,10 +8,24 @@
 }
 
 
-.lower-navbar{
+.lower-navbar {
   background: linear-gradient(180deg, #7f6b9b 0%, rgba(75, 75, 75, 0.00) 100%);
 }
 
-*{
+* {
   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
 }
