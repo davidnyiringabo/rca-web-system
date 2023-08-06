@@ -12,14 +12,10 @@ import newFour from "../../../assets/newFour.jpg"
 const About = () => {
 
     return (
-<<<<<<< HEAD
         <div>
             <Hero pageTitle={"RCA NewsPaper"} heroContent={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip."} />
             <div className="dynamic-content-container p-12 flex">
                 <Sidemenu parent={"news"} tabs={["Campus News", "In The News", "Events", "Free Square", "Notice"]} />
-=======
-        <>
->>>>>>> 89ea40410bd22d86700a2e4ec8fef30476a9d274
                 <div className="w-2/3 pl-4">
 
                     <h5 className="font-bold mb-4 ml-4">News Papers &gt; <Link href={"/"} className="text-[#523873]">Campus News</Link></h5>
@@ -38,14 +34,10 @@ const About = () => {
 
                     </div>
                 </div>
-<<<<<<< HEAD
             </div>
 
             <Footer />
         </div>
-=======
-        </>
->>>>>>> 89ea40410bd22d86700a2e4ec8fef30476a9d274
     )
 }
 export default About
