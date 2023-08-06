@@ -1,7 +1,7 @@
 import Hero from "@/src/components/Hero/Hero"
 import Sidemenu from "@/src/components/Sidemenu/Sidemenu"
 import Footer from "@/src/components/Footer/Footer"
-import studentsONe from "../../../assets/studentsOne.JPG"
+// import studentsONe from "../../../assets/studentOne.JPG"
 import manyStudents from "../../../assets/manyStudents.jpeg"
 import Image from "next/image"
 const About = () => {
@@ -22,7 +22,7 @@ const About = () => {
                 </div>
 
                 <div className="w-2/5 h-[40vh] bg-[#f8f8f8]">
-                    <Image src={studentsONe} alt="students" className="w-full h-full" />
+                    <Image src={manyStudents} alt="students" className="w-full h-full" />
                 </div>
             </div>
 
