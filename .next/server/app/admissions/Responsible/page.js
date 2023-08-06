@@ -300,7 +300,7 @@ const Academics = ()=>{
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3450,9694,4113], () => (__webpack_exec__(5)));
+var __webpack_exports__ = __webpack_require__.X(0, [3450,2080,4042], () => (__webpack_exec__(5)));
 module.exports = __webpack_exports__;
 
 })();

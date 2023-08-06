@@ -255,12 +255,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-Object(function webpackMissingModule() { var e = new Error("Cannot find module '../../../assets/studentsOne.JPG'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-/* harmony import */ var _assets_manyStudents_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2822);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7495);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_manyStudents_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2822);
+/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7495);
+/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
 
-
+// import studentsONe from "../../../assets/studentsOne.JPG"
 
 
 const About = ()=>{
@@ -307,8 +306,8 @@ const About = ()=>{
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         className: "w-2/5 h-[40vh] bg-[#f8f8f8]",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
-                            src: Object(function webpackMissingModule() { var e = new Error("Cannot find module '../../../assets/studentsOne.JPG'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()),
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                            src: _assets_manyStudents_jpeg__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z,
                             alt: "students",
                             className: "w-full h-full"
                         })
@@ -317,8 +316,8 @@ const About = ()=>{
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "w-full bg-[#f8f8f8] h-[38vh] my-5",
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
-                    src: _assets_manyStudents_jpeg__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z,
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                    src: _assets_manyStudents_jpeg__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z,
                     alt: "students",
                     className: "w-full h-full"
                 })
@@ -342,7 +341,7 @@ const About = ()=>{
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3450,9694,5152,7791,5723], () => (__webpack_exec__(9948)));
+var __webpack_exports__ = __webpack_require__.X(0, [3450,2080,9486,7791,5723], () => (__webpack_exec__(9948)));
 module.exports = __webpack_exports__;
 
 })();

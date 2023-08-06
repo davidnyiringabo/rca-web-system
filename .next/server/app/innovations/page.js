@@ -262,14 +262,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9610:
+/***/ 9805:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9556, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5457, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7447));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9268));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5517))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5517));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9268))
 
 /***/ }),
 
@@ -395,7 +395,7 @@ const Research = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3450,9694,5152,3426,2851], () => (__webpack_exec__(8490)));
+var __webpack_exports__ = __webpack_require__.X(0, [3450,2080,9486,3426,2851], () => (__webpack_exec__(8490)));
 module.exports = __webpack_exports__;
 
 })();

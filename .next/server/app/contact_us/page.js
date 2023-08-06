@@ -290,7 +290,7 @@ const Alumni = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3450,9694,4764], () => (__webpack_exec__(7671)));
+var __webpack_exports__ = __webpack_require__.X(0, [3450,2080,9544], () => (__webpack_exec__(7671)));
 module.exports = __webpack_exports__;
 
 })();
