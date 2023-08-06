@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-import Hero from "@/components/Hero/Hero"
-import Sidemenu from "@/components/Sidemenu/Sidemenu"
-import Footer from "@/components/Footer/Footer"
-=======
 import Hero from "@/src/components/Hero/Hero"
 import Sidemenu from "@/src/components/Sidemenu/Sidemenu"
 import Footer from "@/src/components/Footer/Footer"
->>>>>>> 89ea40410bd22d86700a2e4ec8fef30476a9d274
-import studentsONe from "../../../assets/studentsOne.JPG"
+// import studentsONe from "../../../assets/studentsOne.JPG"
 import manyStudents from "../../../assets/manyStudents.jpeg"
 import Image from "next/image"
 const About = () => {
@@ -28,7 +22,7 @@ const About = () => {
                 </div>
 
                 <div className="w-2/5 h-[40vh] bg-[#f8f8f8]">
-                    <Image src={studentsONe} alt="students" className="w-full h-full" />
+                    <Image src={manyStudents} alt="students" className="w-full h-full" />
                 </div>
             </div>
 

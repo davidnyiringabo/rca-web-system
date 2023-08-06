@@ -1,7 +1,7 @@
+'use client'
 import Button from "../components/Button";
 import Navbar from "../components/Navbar/Navbar";
 import '../styles/globals.css'
-// import { HiArrowSmRight } from 'react-icons/hi'
 import risa from '../assets/RISALogo.png'
 import rtb from '../assets/logo2.png'
 import giz from '../assets/gizLogo.png'
@@ -12,24 +12,29 @@ import nesa from '../assets/nesalogo.png'
 import reb from '../assets/rebLogo.png'
 import wbank from '../assets/worldBank.png'
 import abank from '../assets/africaBank.png'
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Card from "../components/card";
 import mission from '../assets/mission.png'
 import vission from '../assets/vision.png'
 import goals from '../assets/goal.png'
 import mainImg from '../assets/studentOne.jpg'
 import img2 from '../assets/newThree.jpg'
-// import { FaChevronLeft } from "react-icons/fa"
-import Footer from "../components/Footer/Footer"
-import Pathvec from '../assets/vectors/Pathvec'
 import { pathData } from "../data/adminPath";
-import NumGraph from "../assets/vectors/Numgraph";
 import Mainarticle from "../components/News/Mainarticle";
 import StatView from "../components/stats";
 import {FaArrowRight,FaChevronLeft} from 'react-icons/fa'
 import NewsComponent from "./news/components/NewsComponent/NewsComponent";
+import { SwiperNavigation } from "../utils/swiper";
+import {useEffect} from 'react'
+import Pathvec from "../assets/vectors/Pathvec";
+import Numgraph from "../assets/vectors/Numgraph";
 const HomePage = () => {
   const partners: string[] = ["/assets/africaBank.png", "/assets/worldBank.png", "/assets/koica.png", "/assets/nesalogo.png", "/assets/RISALogo.png", "/assets/gizLogo.png", "/assets/rtbLogo.png", "/assets/rebLogo.png", "/assets/mineduc.png", "/assets/minict.png"]
+  const sliders:StaticImageData[]= [mainImg,img2]
+   const swiper = new SwiperNavigation(sliders);
+
+
+
   return (
     <div className="">
       <div className="bg-purpleColor">
@@ -104,16 +109,16 @@ const HomePage = () => {
           <p className="text-textGray">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons, adipisci velit, sed quia non numquam eius modi ullma tempora incidunt ut labore et dolore magnam aliquam</p>
         </div>
         <div className=" h-[50vh] basis-1/2 flex justify-center py-8">
-          <div className="w-12 h-12 rounded-full flex items-center justify-center bg-[url('../assets/trapvec.png')] border border-purpleColor translate-x-6 translate-y-36 z-20">
-            <div className="text-purpleColor">
+          <div className="w-12 h-12 rounded-full flex items-center justify-center bg-white border border-purpleColor translate-x-6 translate-y-36 z-20">
+            <div className="text-purpleColor" onClick={swiper.handleBackward}>
               <FaChevronLeft />
             </div>
           </div>
           <div className="relative bg-white  w-2/3 rounded-lg">
-
+<Image src={sliders[swiper.index]} fill alt="image" />
           </div>
           <div className="w-12 h-12 rounded-full flex items-center justify-center bg-white border border-purpleColor -translate-x-6 translate-y-36">
-            <div className="rotate-180 text-purpleColor" >
+            <div className="rotate-180 text-purpleColor" onClick={swiper.handleForward}>
               <FaChevronLeft />
             </div>
           </div>
@@ -184,7 +189,7 @@ const HomePage = () => {
         <p className="text-textGray font-semibold text-3xl pl-12 pb-6">Lets Get To Numbers</p>
         <div className="bg-purpleColor relative flex-col ">
           <div className="w-full flex justify-end">
-          <NumGraph />
+          <Numgraph />
           </div>
           <div className="absolute z-20 top-44 w-full px-32 grid grid-cols-4">
 <StatView statNo={45} statDesc="Years Of Foundation" />
