@@ -7,7 +7,7 @@ const Navbar = ()=>{
     return(
         <div className="w-full">
             <div className="upper-container w-full flex justify-between px-9 py-2">
-                <Link href={"/"}>Welcome to Rwanda Coding Academy</Link>
+                <Link className="text-lg" href={"/"}>Welcome to <span className="text-purpleColor">Rwanda Coding Academy</span></Link>
 
                 <span className="flex gap-1"><Link href={"/"}>Student</Link> / <Link href={"/"}>Staff Portal</Link></span>
             </div>

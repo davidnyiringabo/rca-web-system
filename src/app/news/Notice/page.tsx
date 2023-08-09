@@ -9,6 +9,7 @@ import newOne from "../../../assets/newOne.jpg"
 import newTwo from "../../../assets/newTwo.jpg"
 import newThree from "../../../assets/newThree.jpg"
 import newFour from "../../../assets/newFour.jpg"
+
 const About = () => {
 
     return (

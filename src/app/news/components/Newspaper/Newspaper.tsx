@@ -1,4 +1,5 @@
 import Image from "next/image"
+// import newOne from "../../../../assets/newOne.jpg"import Image from "next/image"
 import newOne from "../../../../assets/newOne.jpg"
 interface Props{
     title: String, 

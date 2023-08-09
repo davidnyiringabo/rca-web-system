@@ -6,7 +6,7 @@ import manyStudents from "../../assets/manyStudents.jpeg"
 import Image from "next/image"
 const About = ()=>{
 
-    return(
+    return (
         <div className="w-full px-9">
             <h5 className="font-extrabold mb-9">About   &gt;   <span className="text-[#523873]">Campuses and Facilities</span></h5>
 

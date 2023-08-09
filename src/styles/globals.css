@@ -1,14 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 :root {
 
   font-family: poppins !important;
+  font-size: 12px;
 }
-/* body{
-  width: 100vw !important;
-} */
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -36,4 +37,6 @@ background-size:full;
 
 body{
   overflow-x: hidden;
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: 'Poppins', sans-serif;
 }
