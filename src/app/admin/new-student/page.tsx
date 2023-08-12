@@ -1,6 +1,41 @@
 import React from 'react'
 
 const NewStudent = () => {
+        const districts:string[]= [
+                'Gasabo',
+                'Kicukiro',
+                'Nyarugenge',
+                'Bugesera',
+                'Gatsibo',
+                'Kayonza',
+                'Kirehe',
+                'Ngoma',
+                'Nyagatare',
+                'Rwamagana',
+                'Ruhango',
+                'Gisagara',
+                'Huye',
+                'Kamonyi',
+                'Muhanga',
+                'Nyamagabe',
+                'Nyanza',
+                'Nyaruguru',
+                'Ruhango',
+                'Burera',
+                'Gicumbi',
+                'Musanze',
+                'Rulindo',
+                'Karongi',
+                'Ngororero',
+                'Nyabihu',
+                'Nyamasheke',
+                'Rubavu',
+                'Rusizi',
+                'Rutsiro'
+              ]
+              const provinces:string[] = ['East','West','North','South','Kigali City'
+
+              ]
         return (
                 <div className='w-full h-full overflow-y-auto overflow-x-hidden p-2 text-sm'>
                         < h2 className='text-[17px] font-medium  text-[rgba(0,0,0,0.7)] my-2' >Register New Student</h2 >
@@ -17,10 +52,25 @@ const NewStudent = () => {
                                         <textarea placeholder='Description of the student' className=" my-2 text-black placeholder:text-black bg-[rgba(67,67,67,0.03)]  rounded-md border-[2px] border-[rgba(67,67,67,0.09)] w-full px-3 py-2"></textarea>
                                 </div>
                                 <div className="w-[50%] md:w-full">
-                                        <input type="text" placeholder='Province Of Residence' className=' w-full  my-2 px-3 py-2 text-black placeholder:text-black bg-[rgba(67,67,67,0.03)]  rounded-md border-[2px] border-[rgba(67,67,67,0.09)]' />
+                                <select placeholder='Select District' className='w-full  my-2 px-3 py-2 text-black placeholder:text-black bg-[rgba(67,67,67,0.03)]  rounded-md border-[2px] border-[rgba(67,67,67,0.09)]'>
+                                        <option value={''} disabled >Province of Residence</option>
+                                        {provinces.map((province,index)=>{
+                                                return(
+                                                        <option key={index} value={province}>{province}</option>
+                                                )
+                                        })}
+</select>
                                 </div>
                                 <div className="w-[50%] md:w-full">
-                                        <input type="text" placeholder='District Of Residence' className=' w-full  my-2 px-3 py-2 text-black placeholder:text-black bg-[rgba(67,67,67,0.03)]  rounded-md border-[2px] border-[rgba(67,67,67,0.09)]' />
+                                        <select placeholder='Select District' className='w-full  my-2 px-3 py-2 text-black placeholder:text-black bg-[rgba(67,67,67,0.03)]  rounded-md border-[2px] border-[rgba(67,67,67,0.09)]'>
+                                                <option value={''} disabled>District Of Residence</option>
+                                                {districts.map((district,index)=>{
+                                                        return(
+                                                                <option key={index} value={district}>{district}</option>
+                                                        )
+                                                })}
+                                        </select>
+                                        {/* <input type="text" placeholder='District Of Residence' className=' w-full  my-2 px-3 py-2 text-black placeholder:text-black bg-[rgba(67,67,67,0.03)]  rounded-md border-[2px] border-[rgba(67,67,67,0.09)]' /> */}
                                 </div>
                         </div>
                         <div className="my-10">

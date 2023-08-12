@@ -40,14 +40,6 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/image-component.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
@@ -56,17 +48,17 @@
         "async": false
       }
     },
-    "(app-client)/./src/assets/logo.png": {
+    "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
-        "id": "(sc_client)/./src/assets/logo.png",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/assets/search.png": {
+    "(app-client)/./src/components/Navbar/Navbar.tsx": {
       "*": {
-        "id": "(sc_client)/./src/assets/search.png",
+        "id": "(sc_client)/./src/components/Navbar/Navbar.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -160,105 +152,33 @@
         "async": false
       }
     },
-    "(app-client)/./src/assets/RISALogo.png": {
+    "(app-client)/./src/styles/globals.css": {
       "*": {
-        "id": "(sc_client)/./src/assets/RISALogo.png",
+        "id": "(sc_client)/./src/styles/globals.css",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/assets/logo2.png": {
+    "(app-client)/./src/app/page.tsx": {
       "*": {
-        "id": "(sc_client)/./src/assets/logo2.png",
+        "id": "(sc_client)/./src/app/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/assets/gizLogo.png": {
+    "(app-client)/./src/assets/newOne.jpg": {
       "*": {
-        "id": "(sc_client)/./src/assets/gizLogo.png",
+        "id": "(sc_client)/./src/assets/newOne.jpg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/assets/mineduc.png": {
+    "(app-client)/./src/assets/newTwo.jpg": {
       "*": {
-        "id": "(sc_client)/./src/assets/mineduc.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/minict.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/minict.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/koica.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/koica.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/nesalogo.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/nesalogo.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/rebLogo.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/rebLogo.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/worldBank.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/worldBank.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/africaBank.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/africaBank.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/mission.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/mission.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/vision.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/vision.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/goal.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/goal.png",
+        "id": "(sc_client)/./src/assets/newTwo.jpg",
         "name": "*",
         "chunks": [],
         "async": false
@@ -272,17 +192,17 @@
         "async": false
       }
     },
-    "(app-client)/./src/assets/rcalogo.png": {
+    "(app-client)/./src/assets/newFour.jpg": {
       "*": {
-        "id": "(sc_client)/./src/assets/rcalogo.png",
+        "id": "(sc_client)/./src/assets/newFour.jpg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/app/admin/customizations/DropPart.tsx": {
+    "(app-client)/./src/assets/playbutton.png": {
       "*": {
-        "id": "(sc_client)/./src/app/admin/customizations/DropPart.tsx",
+        "id": "(sc_client)/./src/assets/playbutton.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -291,7 +211,7 @@
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/client/components/error-boundary.js": {
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -299,7 +219,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -307,7 +227,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/client/components/app-router.js": {
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -315,7 +235,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/esm/client/components/app-router.js": {
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -323,7 +243,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/client/components/layout-router.js": {
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -331,7 +251,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -339,7 +259,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -347,7 +267,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -355,7 +275,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -363,7 +283,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -371,55 +291,47 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/admin/layout:static/chunks/app/admin/layout.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/admin/layout:static/chunks/app/admin/layout.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/client/image-component.js": {
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\client\\image-component.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/admin/layout:static/chunks/app/admin/layout.js"
+        "app/news/layout:static/chunks/app/news/layout.js"
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/dist/esm/client/image-component.js": {
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\esm\\client\\image-component.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/admin/layout:static/chunks/app/admin/layout.js"
+        "app/news/layout:static/chunks/app/news/layout.js"
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/logo.png": {
-      "id": "(app-client)/./src/assets/logo.png",
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/news/layout:static/chunks/app/news/layout.js"
+      ],
+      "async": false
+    },
+    "F:\\projects\\frontEnd-service\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/news/layout:static/chunks/app/news/layout.js"
+      ],
+      "async": false
+    },
+    "F:\\projects\\frontEnd-service\\src\\components\\Navbar\\Navbar.tsx": {
+      "id": "(app-client)/./src/components/Navbar/Navbar.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/search.png": {
-      "id": "(app-client)/./src/assets/search.png",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/facebook.png": {
+    "F:\\projects\\frontEnd-service\\src\\assets\\facebook.png": {
       "id": "(app-client)/./src/assets/facebook.png",
       "name": "*",
       "chunks": [
@@ -427,7 +339,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/github.png": {
+    "F:\\projects\\frontEnd-service\\src\\assets\\github.png": {
       "id": "(app-client)/./src/assets/github.png",
       "name": "*",
       "chunks": [
@@ -435,7 +347,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/instagram.png": {
+    "F:\\projects\\frontEnd-service\\src\\assets\\instagram.png": {
       "id": "(app-client)/./src/assets/instagram.png",
       "name": "*",
       "chunks": [
@@ -443,7 +355,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/reddit.png": {
+    "F:\\projects\\frontEnd-service\\src\\assets\\reddit.png": {
       "id": "(app-client)/./src/assets/reddit.png",
       "name": "*",
       "chunks": [
@@ -451,7 +363,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/linkedin.png": {
+    "F:\\projects\\frontEnd-service\\src\\assets\\linkedin.png": {
       "id": "(app-client)/./src/assets/linkedin.png",
       "name": "*",
       "chunks": [
@@ -459,7 +371,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/slack.png": {
+    "F:\\projects\\frontEnd-service\\src\\assets\\slack.png": {
       "id": "(app-client)/./src/assets/slack.png",
       "name": "*",
       "chunks": [
@@ -467,7 +379,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/twitter.png": {
+    "F:\\projects\\frontEnd-service\\src\\assets\\twitter.png": {
       "id": "(app-client)/./src/assets/twitter.png",
       "name": "*",
       "chunks": [
@@ -475,7 +387,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/whatsapp.png": {
+    "F:\\projects\\frontEnd-service\\src\\assets\\whatsapp.png": {
       "id": "(app-client)/./src/assets/whatsapp.png",
       "name": "*",
       "chunks": [
@@ -483,7 +395,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/snapchat.png": {
+    "F:\\projects\\frontEnd-service\\src\\assets\\snapchat.png": {
       "id": "(app-client)/./src/assets/snapchat.png",
       "name": "*",
       "chunks": [
@@ -491,7 +403,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/product.png": {
+    "F:\\projects\\frontEnd-service\\src\\assets\\product.png": {
       "id": "(app-client)/./src/assets/product.png",
       "name": "*",
       "chunks": [
@@ -499,7 +411,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/evernote.png": {
+    "F:\\projects\\frontEnd-service\\src\\assets\\evernote.png": {
       "id": "(app-client)/./src/assets/evernote.png",
       "name": "*",
       "chunks": [
@@ -507,7 +419,7 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/styles/globals.css": {
+    "F:\\projects\\frontEnd-service\\src\\styles\\globals.css": {
       "id": "(app-client)/./src/styles/globals.css",
       "name": "*",
       "chunks": [
@@ -515,151 +427,63 @@
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/RISALogo.png": {
-      "id": "(app-client)/./src/assets/RISALogo.png",
+    "F:\\projects\\frontEnd-service\\src\\app\\page.tsx": {
+      "id": "(app-client)/./src/app/page.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/logo2.png": {
-      "id": "(app-client)/./src/assets/logo2.png",
+    "F:\\projects\\frontEnd-service\\src\\assets\\newOne.jpg": {
+      "id": "(app-client)/./src/assets/newOne.jpg",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/news/page:static/chunks/app/news/page.js"
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/gizLogo.png": {
-      "id": "(app-client)/./src/assets/gizLogo.png",
+    "F:\\projects\\frontEnd-service\\src\\assets\\newTwo.jpg": {
+      "id": "(app-client)/./src/assets/newTwo.jpg",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/news/page:static/chunks/app/news/page.js"
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/mineduc.png": {
-      "id": "(app-client)/./src/assets/mineduc.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/minict.png": {
-      "id": "(app-client)/./src/assets/minict.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/koica.png": {
-      "id": "(app-client)/./src/assets/koica.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/nesalogo.png": {
-      "id": "(app-client)/./src/assets/nesalogo.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/rebLogo.png": {
-      "id": "(app-client)/./src/assets/rebLogo.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/worldBank.png": {
-      "id": "(app-client)/./src/assets/worldBank.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/africaBank.png": {
-      "id": "(app-client)/./src/assets/africaBank.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/mission.png": {
-      "id": "(app-client)/./src/assets/mission.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/vision.png": {
-      "id": "(app-client)/./src/assets/vision.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/goal.png": {
-      "id": "(app-client)/./src/assets/goal.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/newThree.jpg": {
+    "F:\\projects\\frontEnd-service\\src\\assets\\newThree.jpg": {
       "id": "(app-client)/./src/assets/newThree.jpg",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/news/page:static/chunks/app/news/page.js"
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/node_modules/next/font/google/target.css?{\"path\":\"src/app/admin/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/admin/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "F:\\projects\\frontEnd-service\\src\\assets\\newFour.jpg": {
+      "id": "(app-client)/./src/assets/newFour.jpg",
       "name": "*",
       "chunks": [
-        "app/admin/layout:static/chunks/app/admin/layout.js"
+        "app/news/page:static/chunks/app/news/page.js"
       ],
       "async": false
     },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/assets/rcalogo.png": {
-      "id": "(app-client)/./src/assets/rcalogo.png",
+    "F:\\projects\\frontEnd-service\\src\\assets\\playbutton.png": {
+      "id": "(app-client)/./src/assets/playbutton.png",
       "name": "*",
       "chunks": [
-        "app/admin/layout:static/chunks/app/admin/layout.js"
-      ],
-      "async": false
-    },
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/app/admin/customizations/DropPart.tsx": {
-      "id": "(app-client)/./src/app/admin/customizations/DropPart.tsx",
-      "name": "*",
-      "chunks": [
-        "app/admin/customizations/page:static/chunks/app/admin/customizations/page.js"
+        "app/news/layout:static/chunks/app/news/layout.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/app/layout": [
+    "F:\\projects\\frontEnd-service\\src\\app\\layout": [
       "static/css/app/layout.css"
     ],
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/app/page": [],
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/app/admin/layout": [
-      "static/css/app/admin/layout.css"
+    "F:\\projects\\frontEnd-service\\src\\app\\page": [
+      "static/css/app/page.css"
     ],
-    "/home/broony/Desktop/Best_Projects/RCA-WEB/frontEnd-service/src/app/admin/customizations/page": []
+    "F:\\projects\\frontEnd-service\\src\\app\\news\\page": [],
+    "F:\\projects\\frontEnd-service\\src\\app\\news\\layout": []
   }
 }

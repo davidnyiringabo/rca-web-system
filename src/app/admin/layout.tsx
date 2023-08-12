@@ -26,7 +26,6 @@ export default function AdminPortalLayout({
                                         {children}
                                 </div>
                         </div>
-                        <StudentPortalFooter />
                 </div>
         )
 }
