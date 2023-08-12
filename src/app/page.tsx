@@ -78,7 +78,7 @@ const HomePage = () => {
 
   return (
     <div className="">
-      <div className="md:bg-purpleColor lg:bg-[red]">
+      <div className="md:bg-purpleColor">
         {/* background */}
         <div className="motion-safe:animate-pulse md:bg-fixed bg-[url('../assets/background.png')] mx-auto lg:w-[98vw] md:h-[90vh] bg-50% bg-no-repeat bg-fullcover p-6 sm:p-12 md:p-12 sm:space-y-2 md:space-y-8">
           <p className="text-white font-black text-xl animate-bounce">Leading Through Digital Innovation</p>

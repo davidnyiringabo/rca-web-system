@@ -167,46 +167,6 @@
         "chunks": [],
         "async": false
       }
-    },
-    "(app-client)/./src/assets/newOne.jpg": {
-      "*": {
-        "id": "(sc_client)/./src/assets/newOne.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/newTwo.jpg": {
-      "*": {
-        "id": "(sc_client)/./src/assets/newTwo.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/newThree.jpg": {
-      "*": {
-        "id": "(sc_client)/./src/assets/newThree.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/newFour.jpg": {
-      "*": {
-        "id": "(sc_client)/./src/assets/newFour.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/playbutton.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/playbutton.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -295,7 +255,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/news/layout:static/chunks/app/news/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -303,7 +263,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/news/layout:static/chunks/app/news/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -311,7 +271,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/news/layout:static/chunks/app/news/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -319,7 +279,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/news/layout:static/chunks/app/news/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -434,46 +394,6 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
-    },
-    "F:\\projects\\frontEnd-service\\src\\assets\\newOne.jpg": {
-      "id": "(app-client)/./src/assets/newOne.jpg",
-      "name": "*",
-      "chunks": [
-        "app/news/page:static/chunks/app/news/page.js"
-      ],
-      "async": false
-    },
-    "F:\\projects\\frontEnd-service\\src\\assets\\newTwo.jpg": {
-      "id": "(app-client)/./src/assets/newTwo.jpg",
-      "name": "*",
-      "chunks": [
-        "app/news/page:static/chunks/app/news/page.js"
-      ],
-      "async": false
-    },
-    "F:\\projects\\frontEnd-service\\src\\assets\\newThree.jpg": {
-      "id": "(app-client)/./src/assets/newThree.jpg",
-      "name": "*",
-      "chunks": [
-        "app/news/page:static/chunks/app/news/page.js"
-      ],
-      "async": false
-    },
-    "F:\\projects\\frontEnd-service\\src\\assets\\newFour.jpg": {
-      "id": "(app-client)/./src/assets/newFour.jpg",
-      "name": "*",
-      "chunks": [
-        "app/news/page:static/chunks/app/news/page.js"
-      ],
-      "async": false
-    },
-    "F:\\projects\\frontEnd-service\\src\\assets\\playbutton.png": {
-      "id": "(app-client)/./src/assets/playbutton.png",
-      "name": "*",
-      "chunks": [
-        "app/news/layout:static/chunks/app/news/layout.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
@@ -482,8 +402,6 @@
     ],
     "F:\\projects\\frontEnd-service\\src\\app\\page": [
       "static/css/app/page.css"
-    ],
-    "F:\\projects\\frontEnd-service\\src\\app\\news\\page": [],
-    "F:\\projects\\frontEnd-service\\src\\app\\news\\layout": []
+    ]
   }
 }
