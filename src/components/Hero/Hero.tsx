@@ -7,7 +7,7 @@ interface Props{
 }
 const Hero = ({pageTitle, heroContent}: Props)=>{
     return(
-        <div className="w-full p-24 flex justify-between items-center bg-[url('/images/landingbg.JPG')] relative mt-[-3px]">
+        <div className="w-full p-24 flex justify-between items-center bg-[url('/images/landingbg.png')] relative mt-[-3px]">
             <div className="left-content">
                 <h1 className="text-6xl font-extrabold text-white pb-10">{pageTitle}</h1>
                 <p 

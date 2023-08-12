@@ -1129,6 +1129,9 @@ video {
 .bg-\[url\(\'\/images\/landingbg\.JPG\'\)\] {
   background-image: url('/images/landingbg.JPG');
 }
+.bg-\[url\(\'\/images\/landingbg\.png\'\)\] {
+  background-image: url('/images/landingbg.png');
+}
 .bg-50\% {
   background-size: 100%;
 }
