@@ -7,12 +7,11 @@ interface Props{
 }
 const Hero = ({pageTitle, heroContent}: Props)=>{
     return(
-        <div className="hero w-full p-24 flex justify-between items-center bg-[#e3e2e2] relative mt-[-9px] relative">
-                <div className="left-content">
-                <h1 className="text-6xl font-extrabold text-white pb-10">{pageTitle}</h1>
+        <div className="hero flex-col md:flex-row w-full p-24 flex justify-between items-center bg-[#e3e2e2] relative mt-[-9px] relative">
+            <div className="left-content mb-3 md:mb-0">
+                <h1 className="text-6xl font-extrabold text-white md:pb-10">{pageTitle}</h1>
                 <p 
-                className="w-1/2 leading-[2.5rem] 
-                    //  text-white
+                className="w-full mt-12 md:mt-0 md:w-1/2 leading-[2.5rem] text-white
                     ">{heroContent}</p>
             </div>
 

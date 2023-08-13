@@ -7,7 +7,7 @@ interface Props {
 }
 const Sidemenu = ({tabs, parent}: Props)=>{
     return(
-        <div className="w-[30rem] h-fit flex flex-col bg-slate-100">
+        <div className="hidden md:flex w-[30vw] h-fit flex flex-col bg-slate-100">
             {tabs.map((tab,index) =>{
                 return(
                     <Link href={`/${parent}/${tab.split(" ")[0]}`} className="py-4 pl-4 border-b border-b-2 hover:bg-[#523873] active:bg-[#523873] active:text-white hover:text-white" key={index}>

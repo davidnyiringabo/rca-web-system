@@ -7,7 +7,7 @@ const Academics = ()=>{
             <p className="leading-[2rem]">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons, adipisci velit, sed quia non numquam eius modi ullma tempora incidunt ut labore et dolore magnam aliquam</p>
 
 
-            <div className="w-full flex justify-between                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
+            <div className="w-full flex justify-between                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ">
                 <div></div>
                 <div></div>
             </div>
