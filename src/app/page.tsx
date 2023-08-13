@@ -17,7 +17,7 @@ import Card from "../components/card";
 import mission from '../assets/mission.png'
 import vission from '../assets/vision.png'
 import goals from '../assets/goal.png'
-import mainImg from '../assets/studentOne.jpg'
+import mainImg from '../assets/studentsOne.jpg'
 import img2 from '../assets/newThree.jpg'
 import Pathvec from '../assets/vectors/Pathvec'
 import { pathData } from "../data/adminPath";
