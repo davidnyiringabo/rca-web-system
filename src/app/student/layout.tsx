@@ -1,6 +1,6 @@
-import StudentPortalNavbar from '@/components/Navbar/StudentPortalNavbar'
+import StudentPortalNavbar from '@/src/components/Navbar/StudentPortalNavbar'
 import type { Metadata } from 'next'
-import StudentPortalFooter from '@/components/Footer/StudentPortalFooter'
+import StudentPortalFooter from '@/src/components/Footer/StudentPortalFooter'
 
 
 export const metadata: Metadata = {
