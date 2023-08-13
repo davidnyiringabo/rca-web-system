@@ -8,7 +8,7 @@ interface Props {
 }
 const NewsComponent = ({ date, title, content, image }: Props) => {
     return (
-        <div className="w-full sm:h-[260px] my-4 flex justify-between items-center border border-[#ccc] py-2 px-1 rounded-lg">
+        <div className="w-full sm:h-[260px] md:h-[300px] my-4 flex justify-between items-center border border-[#ccc] py-2 px-1 rounded-lg">
             <div className="w-2/5 h-[90%] rounded-lg bg-slate-100">
                 <Image src={image} alt={title} className="w-full h-full" />
             </div>

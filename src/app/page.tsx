@@ -25,10 +25,12 @@ import StatView from "../components/stats";
 import { FaArrowRight, FaChevronLeft } from "react-icons/fa";
 import NewsComponent from "./news/components/NewsComponent/NewsComponent";
 import { SwiperNavigation } from "../utils/swiper";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Pathvec from "../assets/vectors/Pathvec";
 import Numgraph from "../assets/vectors/Numgraph";
 const HomePage = () => {
+  const counterRef = useRef(null)
+  const [isInViewPort,setIsInViewPort] = useState(false)
   let[  years,setYears] = useState(0)
   let[  projects,setProjects] = useState(0)
   let[  graduates,setGraduates] = useState(0)
@@ -48,39 +50,71 @@ const HomePage = () => {
   const sliders: StaticImageData[] = [mainImg, img2];
   const swiper = new SwiperNavigation(sliders);
   useEffect(()=>{
+  if(isInViewPort){
     setInterval(()=>{
       if(years<6){
         setYears(years++);
       }
     },1100)
-  },[])
-  useEffect(()=>{
-    setInterval(()=>{
-      if(partner<7){
-        setPartner(partner++);
-      }
-    },1200)
-  },[])
-  useEffect(()=>{
-    setInterval(()=>{
-      if(graduates<121){
-        setGraduates(graduates++);
-      }
-    },100)
-  },[])
-  useEffect(()=>{
-    setInterval(()=>{
-      if(projects<15){
-        setProjects(projects++);
-      }
-    },600)
-  },[])
 
+  }
+  },[isInViewPort])
+  useEffect(()=>{
+    if(isInViewPort){
+      setInterval(()=>{
+        if(partner<7){
+          setPartner(partner++);
+        }
+      },1200)
+
+    }
+  },[isInViewPort])
+  useEffect(()=>{
+    if(isInViewPort){
+      setInterval(()=>{
+        if(graduates<121){
+          setGraduates(graduates++);
+        }
+      },100)
+
+    }
+  },[isInViewPort])
+  useEffect(()=>{
+    if(isInViewPort){
+      setInterval(()=>{
+        if(projects<15){
+          setProjects(projects++);
+        }
+      },600)
+
+    }
+  },[isInViewPort])
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsInViewPort(entry.isIntersecting);
+      },
+      {
+        threshold: 0.5, 
+      }
+    );
+
+    if (counterRef.current) {
+      observer.observe(counterRef.current);
+    }
+
+    return () => {
+      if (counterRef.current) {
+        observer.unobserve(counterRef.current);
+      }
+    };
+  }, []);
   return (
     <div className="">
       <div className="md:bg-purpleColor">
         {/* background */}
-        <div className="motion-safe:animate-pulse md:bg-fixed bg-[url('../assets/background.png')] mx-auto lg:w-[98vw] md:h-[90vh] bg-50% bg-no-repeat bg-fullcover p-6 sm:p-12 md:p-12 sm:space-y-2 md:space-y-8">
+        <div className="  motion-safe:animate-pulse md:bg-fixed bg-[url('../assets/background.png')] mx-auto lg:w-[98vw] md:h-[90vh] bg-50% bg-no-repeat bg-fullcover p-6 sm:p-12 md:p-12 sm:space-y-2 md:space-y-8">
           <p className="text-white font-black text-xl animate-bounce">Leading Through Digital Innovation</p>
           <h3 className=" text-outline-white text-lg sm:text-xl md:text-3xl lg:text-5xl font-semibold text-white ">
             Welcome To 
@@ -95,10 +129,10 @@ const HomePage = () => {
             non numquam eius modi ullma tempora incidunt ut labore et dolore
             magnam aliquam.
           </p>
-          <div className="md:flex w-full md:w-11/12 lg:w-1/2 gap-12 sm:translate-y-8 -md:translate-y-12 lg:translate-y-32 space-y-2 md:space-y-0 mx-0 ">
+          <div className="md:flex w-full md:w-11/12 lg:w-2/3 xl:w-1/2 gap-12 sm:translate-y-8 md:translate-y-12 lg:-translate-y-8 space-y-2 md:space-y-0 mx-0 ">
             <Button
               text="View Academic Structure"
-              className="bg-purpleColor md:p-4 lg:px-16 px-4 sm:px-14 rounded-lg text-white p-2 "
+              className="bg-purpleColor md:p-4 xl:px-16 px-4 sm:px-14 rounded-lg text-white p-2 "
               icon={<FaArrowRight />}
             />
             <Button
@@ -110,13 +144,13 @@ const HomePage = () => {
         <div className="h-32 w-full hidden sm:block"></div>
       </div>
       {/* Stake holder */}
-      <div className="w-full bg-white">
+      <div className="w-full bg-white ">
         <div className="md:space-y-8 space-y-4 py-2 md:py-12">
           <h3 className="text-textGray text-center text-3xl font-medium">
           
             Stakeholders and partners
           </h3>
-          <p className="text-start sm:text-center text-lg text-[#4343436E] px-[50px] lg:px-[450px]">
+          <p className="text-start sm:text-center text-lg text-[#4343436E] px-[50px] xl:px-[450px]">
             Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
             cons, adipisci veli incidunt ut labore et dolore magnam aliquam.
           </p>
@@ -135,12 +169,12 @@ const HomePage = () => {
             <Image src={minict} alt="partner image" width={100} height={80} />
           </div>
         </div>
-        <div className="w-full lg:flex">
-          <div className="basis-1/2 bg-white relative py-12 px-12 sm:px-28">
-            <div className="h-[315px]  sm:h-[450px] md:h-[630px] w-[290px] sm:w-[390px] md:w-[450px] lg:w-[581px] relative">
+        <div className="w-full lg:flex ">
+          <div className="basis-1/2 bg-white relative py-12 px-12 sm:px-28 ">
+            <div className="h-[315px]  sm:h-[450px] md:h-[630px] lg:h-[430px] w-[290px] sm:w-[390px] md:w-[450px] lg:w-[320px] xl:w-[581px] relative">
               <Image src={mainImg} fill alt="img1" />
             </div>
-            <div className="h-[200px] sm:h-[320px] md:h-[400px] lg:h-[520px] w-[157px] sm:w-[277px] md:w-[304px] lg:w-[404px] absolute z-20 -translate-y-[270px] sm:-translate-y-[390px] md:-translate-y-[550px] lg:-translate-y-[650px] translate-x-[175px] md:translate-x-[320px] lg:translate-x-[420px] border-8 rounded border-white ">
+            <div className="h-[200px] sm:h-[320px] lg:h-[200px] md:h-[400px] lg:h-[520px] w-[157px] sm:w-[277px] md:w-[304px] lg:w-[250px] xl:w-[404px] absolute z-20 -translate-y-[270px] lg:-translate-y-[270px] sm:-translate-y-[390px] md:-translate-y-[550px] xl:-translate-y-[550px] translate-x-[175px] md:translate-x-[320px] lg:translate-x-[150px] xl:translate-x-[220px] border-8 rounded border-white ">
               <Image src={img2} alt="img2" className="rounded-2xl" fill />
             </div>
           </div>
@@ -168,11 +202,11 @@ const HomePage = () => {
             </p>
             <Button
               text="Continue Reading"
-              className="bg-purpleColor p-4 w-full w-3/4 sm:w-1/3 rounded-xl text-white "
+              className="bg-purpleColor p-4 w-full lg:w-2/3 w-3/4 sm:w-1/3 rounded-xl text-white "
             />
           </div>
         </div>
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 space-y-6 px-4 lg:px-16 z-20  lg:-translate-y-16">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 space-y-6 px-4 lg:px-16 z-20 lg:-translate-y-8 xl:-translate-y-16">
           <Card
           className="mt-6"
             image={mission}
@@ -196,7 +230,7 @@ const HomePage = () => {
           <p className="text-purpleColor font-semibold text-md">
             INNOVATION HUB
           </p>
-          <p className="text-textGray font-semibold text-lg lg:w-2/4">
+          <p className="text-textGray font-semibold text-lg xl:w-2/4">
             Get to Know Our Innovation Hub and what Our Community is working on
           </p>
           <p className="text-textGray">
@@ -232,31 +266,31 @@ const HomePage = () => {
         </div>
       </div>
       {/* Admission and road map */}
-      <div className="w-full bg-white p-4 space-y-2 translate-y-8 sm:space-y-12 sm:translate-y-12 md:translate-y-8 lg:translate-y-12 ">
+      <div className=" w-full bg-white p-4 space-y-2 translate-y-8 sm:space-y-12 sm:translate-y-12 md:translate-y-8 lg:translate-y-12 ">
         <p className="text-purpleColor font-semibold text-lg text-center">
           ADMISSION TIMELINE & ROADMAP
         </p>
-        <p className="text-textGray font-semibold sm:text-xl md:text-3xl text-center lg:px-[300px]">
+        <p className="text-textGray font-semibold sm:text-xl md:text-3xl text-center xl:px-[300px]">
           Timeline to Get Admitted to This Great Community
         </p>
-        <p className="text-[#4343436E] text-lg text-center lg:px-[280px]">
+        <p className="text-[#4343436E] text-lg text-center xl:px-[280px]">
           Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons,
           adipisci velit, sed quia non numquam eius modi ullma tempora incidunt
           ut labore et dolore magnam aliquam
         </p>
         <div className="flex-col relative">
-          <div className="hidden lg:flex absolute w-3/4 lg:h-2/3  -translate-y-[70px] lg:translate-y-[280px] flex items-center justify-start ml-4 lg:ml-36 ">
+          <div className="hidden 2xl:flex absolute w-3/4 lg:h-2/3  -translate-y-[70px] xl:translate-y-[280px] flex items-center justify-start ml-4 xl:ml-36 ">
             <Pathvec />
           </div>
-          <div className=" px-4 lg:px-32 md:space-y-0 md:space-y-[40px] lg:space-y-[200px]">
+          <div className=" px-4 xl:px-32 md:space-y-0 md:space-y-[40px] xl:space-y-[200px]">
             {pathData.map((path) => {
               if (path.id % 2 != 0) {
                 return (
                   <div
                     key={path.id}
-                    className="w-full flex flex-col-reverse md:flex-row items-center md:ml-32 gap-12"
+                    className="w-full flex flex-col-reverse md:flex-row items-center xl:ml-32 gap-12"
                   >
-                    <div className="w-20 h-20 rounded-full bg-purpleColor border-2 border-white -ml-[125px] hidden lg:block "></div>
+                    <div className="w-20 h-20 rounded-full bg-purpleColor border-2 border-white -ml-[125px] hidden 2xl:block "></div>
                     <div className="basis-1/2 space-y-8">
                       <p className="text-purpleColor font-medium text-lg">
                         {path.title}
@@ -274,7 +308,7 @@ const HomePage = () => {
                   <div className="font-bold text-purpleColor/10 text-6xl basis-1/2 text-end md:border-0 border-2 border-purpleColor flex items-center justify-center rounded-full md:w-0 w-16 md:h-0 h-16 mx-auto border-dashed">
                     {path.id}
                   </div>
-                  <div className="w-20 h-20 rounded-full bg-purpleColor border-2 border-white flex mx-auto hidden lg:block"></div>
+                  <div className="w-20 h-20 rounded-full bg-purpleColor border-2 border-white flex mx-auto hidden 2xl:block"></div>
                   <div className="basis-1/3 space-y-8">
                     <p className="text-purpleColor font-medium text-lg">
                       {path.title}
@@ -341,7 +375,7 @@ const HomePage = () => {
           <div className="w-full hidden  sm:flex justify-end items-end">
             <Numgraph />
           </div>
-          <div className="absolute sm:z-20 top-32 md:top-44 w-full px-4 sm:px-32 grid grid-cols-2 md:grid-cols-4">
+          <div className="absolute sm:z-20 top-32 md:top-44 w-full px-4 sm:px-32 grid grid-cols-2 md:grid-cols-4" ref={counterRef}>
             <StatView statNo={years} statDesc="Years Of Foundation" />
             <StatView statNo={partner} statDesc="Stackholders & Partners" />
             <StatView statNo={graduates} statDesc="Students Completed" />
@@ -357,7 +391,7 @@ const HomePage = () => {
         <p className="text-textGray font-semibold md:text-3xl text-center">
           Our Latest News
         </p>
-        <p className="text-[#4343436E] text-lg text-center px-[0px] lg:px-[280px]">
+        <p className="text-[#4343436E] text-lg text-center px-[0px] xl:px-[280px]">
           Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons,
           adipisci velit, sed quia non numquam eius modi ullma tempora incidunt
           ut labore et dolore magnam aliquam
@@ -390,44 +424,44 @@ const HomePage = () => {
         </div>
         <Button
           text="Read More of Our News"
-          className="lg:px-12 px-6 w-full sm:w-2/3 md:w-1/3 lg:w-1/4 space-x-12 py-3 rounded-lg bg-purpleColor mx-auto text-white text-lg translate-y-36 sm:translate-y-0"
+          className="xl:px-12 px-6 w-full sm:w-2/3 md:w-1/3 md:mx-0 lg:w-1/4 space-x-12 py-4 rounded-lg bg-purpleColor mx-auto text-white text-lg translate-y-36 sm:translate-y-0"
           icon={<FaArrowRight />}
         />
       </div>
       {/* OUR NEWS LETTER */}
-      <div className="w-full bg-white p-8 space-y-8 mb-20 lg:translate-y-40">
+      <div className="w-full bg-white p-8 space-y-8 mb-20 lg:translate-y-40 ">
         <div className="w-full lg:flex">
           <div className="basis-1/2 space-y-8">
-            <p className="text-purpleColor font-semibold text-lg pt-6 lg:pl-12 pl-2">
+            <p className="text-purpleColor font-semibold text-lg pt-6 xl:pl-12 pl-2">
               OUR NEWS LETTER
             </p>
-            <p className="text-textGray font-semibold lg:text-3xl text-lg lg:pl-12 pl-2">
+            <p className="text-textGray font-semibold lg:text-3xl text-lg xl:pl-12 pl-2">
               Subscribe To Our Daily News Letter
             </p>
-            <p className="text-[#4343436E] text-lg text-start lg:pl-12 pl-2">
+            <p className="text-[#4343436E] text-lg text-start xl:pl-12 pl-2">
               Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
               cons, adipisci velit, sed quia non numquam eius modi ullma tempora
               incidunt ut labore et dolore magnam aliquam
             </p>
 
-            <form className="lg:pl-12 pl-2 space-y-8 ">
+            <form className="xl:pl-12 pl-2 space-y-8 ">
               <input
                 type="email"
                 placeholder="Email Address"
-                className="outline-none py-3 pl-4 bg-textGray/10 lg:w-2/3 w-full rounded-lg border-2 outline-none"
+                className="outline-none py-3 pl-4 bg-textGray/10 lg:w-full w-full rounded-lg border-2 outline-none"
               />
               <Button
                 text="Subscribe Now"
                 icon={<FaArrowRight />}
-                className="lg:px-12 px-6 space-x-12 py-3 rounded-lg bg-purpleColor w-3/4 lg:w-2/4 text-white text-lg"
+                className="lg:px-12 px-6 space-x-12 py-3 rounded-lg bg-purpleColor w-3/4 md:w-1/4 lg:w-3/4 text-white text-lg"
               />
             </form>
           </div>
           <div className="basis-1/2 bg-white relative py-12 lg:px-28 px-12">
-            <div className="lg:h-[400px] h-[200px] lg:w-[304px] w-[157px] absolute z-20 translate-y-[50px] lg:translate-y-[150px] lg:-translate-x-[80px] translate-x-[150px] border-8 rounded border-white ">
+            <div className="lg:h-[350px] xl:h-[400px] h-[200px] md:h-[350px] md:w-[240px] lg:w-[250px] xl:w-[304px] w-[157px] absolute z-20 translate-y-[50px] md:translate-x-[350px] lg:translate-y-[90px] xl:translate-y-[150px] lg:translate-x-[190px] xl:-translate-x-[80px] translate-x-[150px] border-8 rounded border-white ">
               <Image src={img2} alt="img2" className="rounded-2xl" fill />
             </div>
-            <div className=" lg:h-[630px] h-[315px] lg:w-[481px] w-[245px] relative">
+            <div className=" md:h-[500px] lg:h-[530px] h-[315px] md:w-[400px] lg:w-[350px] w-[245px] relative">
               <Image src={mainImg} fill alt="img1" />
             </div>
           </div>
