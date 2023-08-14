@@ -11,7 +11,7 @@ export default function AboutUsLayout({
     return (
       <>
         <Navbar/>
-        <Hero pageTitle={"Campus Life at RCA"} heroContent={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip."}/>
+        <Hero pageTitle={"Campus Life at RCA"} heroContent={"Rwanda Coding Academy, a school in Nyabihu, western province of Rwanda, equips students with the skills to create highly functioning software programs of different varieties. Our aim is to create a generation of young people evolve with the ever-growing journey of evolutional tech and who are capable of contributing to that journey just as equally."}/>
         <div className="dynamic-content-container p-12 flex">
             <Sidemenu parent={"academics"} tabs={["Academic Year", "Accomodation", "Student Activities", "School Clubs", "Sports and Leisure", "Gallery and Videos", "Academic Affairs"]}/>
             {children}

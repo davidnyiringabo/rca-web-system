@@ -10,7 +10,7 @@ const NewsComponent = ({date, title, content,image}: Props)=>{
     return(
         <div className="w-full h-[380px] my-4 flex justify-between items-center border border-[#ccc] py-1 px-1 rounded-lg flex-col">
             <div className="w-full h-3/5 rounded-lg bg-[#f8f8f8]">
-                <Image src={image} alt={title} className="w-full h-full rounded-lg" />
+                <Image src={image} alt={title} className="w-full h-full rounded-lg"/>
             </div>
             <div className="w-full flex flex-col mx-3">
                 <h4 className="pb-4 text-[#434343ba]">{date}</h4>

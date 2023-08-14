@@ -13,7 +13,7 @@ const Navbar = ()=>{
             </div>
             <div className="w-full md:flex justify-between px-6 lower-navbar py-6 items-center text-white">
                 <Link href={"/"}><Image src={logo} alt={""}/></Link>
-                <div className="flex flex-col md:flex-row gap-6">
+                <div className="flex flex-col mt-4 md:mt-0 md:flex-row gap-6">
                     <Link href={"/about_us"}>About us</Link>
                     <Link href={"/academics"}>Academics</Link>
                     <Link href={"/news"}>News</Link>
@@ -24,7 +24,7 @@ const Navbar = ()=>{
                     <Link href={"/contact_us"}>Contact us</Link>
                 </div>
 
-                <div className=" py-2 px-4 bg-[#D9D9D9] rounded-md cursor-pointer">
+                <div className=" py-2 px-4 mt-4 md:mt-0 bg-[#D9D9D9] rounded-md cursor-pointer">
                     {/* <input className="w-12 py-2 px-4 bg-[#D9D9D9] rounded-md cursor-pointer focus:w-full outline-none text-black" /> */}
                     <Image src={search} alt=""/>
                 </div>
