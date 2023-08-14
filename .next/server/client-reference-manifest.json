@@ -167,6 +167,14 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./src/assets/playbutton.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/playbutton.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -255,7 +263,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/contact_us/layout:static/chunks/app/contact_us/layout.js"
       ],
       "async": false
     },
@@ -263,7 +271,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/contact_us/layout:static/chunks/app/contact_us/layout.js"
       ],
       "async": false
     },
@@ -271,7 +279,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/contact_us/layout:static/chunks/app/contact_us/layout.js"
       ],
       "async": false
     },
@@ -279,7 +287,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/contact_us/layout:static/chunks/app/contact_us/layout.js"
       ],
       "async": false
     },
@@ -394,6 +402,14 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
+    },
+    "F:\\projects\\frontEnd-service\\src\\assets\\playbutton.png": {
+      "id": "(app-client)/./src/assets/playbutton.png",
+      "name": "*",
+      "chunks": [
+        "app/contact_us/layout:static/chunks/app/contact_us/layout.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
@@ -402,6 +418,8 @@
     ],
     "F:\\projects\\frontEnd-service\\src\\app\\page": [
       "static/css/app/page.css"
-    ]
+    ],
+    "F:\\projects\\frontEnd-service\\src\\app\\contact_us\\page": [],
+    "F:\\projects\\frontEnd-service\\src\\app\\contact_us\\layout": []
   }
 }
