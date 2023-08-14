@@ -28,6 +28,7 @@ import {FaArrowRight,FaChevronLeft} from 'react-icons/fa'
 import NewsComponent from "./news/components/NewsComponent/NewsComponent";
 import { SwiperNavigation } from "../utils/swiper";
 import {useEffect} from 'react'
+import Footer from "../components/Footer/Footer";
 const HomePage = () => {
   const partners: string[] = ["/assets/africaBank.png", "/assets/worldBank.png", "/assets/koica.png", "/assets/nesalogo.png", "/assets/RISALogo.png", "/assets/gizLogo.png", "/assets/rtbLogo.png", "/assets/rebLogo.png", "/assets/mineduc.png", "/assets/minict.png"]
   const sliders:StaticImageData[]= [mainImg,img2]
@@ -36,6 +37,8 @@ const HomePage = () => {
 
 
   return (
+    <>
+    <Navbar/>
     <div className="">
       <div className="bg-purpleColor">
         {/* background */}
@@ -244,6 +247,8 @@ Letter</p>
 </div>
       </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 export default HomePage;

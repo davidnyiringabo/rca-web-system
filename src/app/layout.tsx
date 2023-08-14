@@ -21,9 +21,9 @@ export default function RootLayout({
         <link rel='icon' href='/favicon.png'/>
       </head>
       <body>
-        <Navbar/>
+        {/* <Navbar/> */}
         {children}
-        <Footer/>
+        {/* <Footer/> */}
       </body>
     </html>
   )
