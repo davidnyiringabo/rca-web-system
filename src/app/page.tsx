@@ -39,7 +39,7 @@ const HomePage = () => {
     <div className="">
       <div className="bg-purpleColor">
         {/* background */}
-        <div className="bg-[url('../assets/background.png')] mx-auto w-[98vw] h-[90vh] bg-50% bg-no-repeat bg-fullcover p-20 space-y-8">
+        <div className="bg-[url('../assets/background.png')] mx-auto w-[100vw] h-[90vh] bg-50% bg-no-repeat bg-fullcover p-20 space-y-8">
           <p className="text-white">Leading Through Digital Innovation</p>
           <h3 className=" text-outline-white text-5xl font-semibold">Welcome To</h3>
           <p className="font-semibold text-white text-6xl">Rwanda Coding Academy</p>
