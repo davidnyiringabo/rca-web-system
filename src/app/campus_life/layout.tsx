@@ -11,7 +11,7 @@ export default function AboutUsLayout({
     return (
       <>
         {/* <Navbar/> */}
-        <Hero pageTitle={"Campus Life at RCA"} heroContent={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip."}/>
+        <Hero pageTitle={"Campus Life at RCA"} heroContent={"Rwanda Coding Academy Campus is situated in the western part of the country, in Nyabihu, a perfect atmosphere for learning. The academy has a vast campus and an environment comprising talented students from all parts of the country, together creating an enjoyable and diverse experience for learning."}/>
         <div className="dynamic-content-container p-12 flex">
             <Sidemenu parent={"campus_life"} tabs={["Academic Year", "Accomodation", "Student Activities", "School Clubs", "Sports and Leisure", "Galley and Videos", "Academic Affairs"]}/>
             {children}
