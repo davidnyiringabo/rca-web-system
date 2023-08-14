@@ -62,7 +62,7 @@ const Footer = ()=>{
                     </div>
                                      
                 </div>
-                <div className="icons-container flex justify-center gap-4 py-4">
+                <div className="icons-container flex justify-center gap-4 py-4 px-4">
                    <h5><Image src={facebookIcon} alt=""/></h5> 
                    <h5><Image src={githubIcon} alt=""/></h5> 
                    <h5><Image src={instagramIcon} alt=""/></h5> 

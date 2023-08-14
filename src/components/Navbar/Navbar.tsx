@@ -18,7 +18,7 @@ const Navbar = ()=>{
                     <Link href={"/academics"}>Academics</Link>
                     <Link href={"/news"}>News</Link>
                     <Link href={"/innovations"}>Innovations</Link>
-                    <Link href={"/campus_life"}>Campus lfe</Link>
+                    <Link href={"/campus_life"}>Campus life</Link>
                     <Link href={"/admissions"}>Admissions</Link>
                     <Link href={"/alumni"}>Alumni</Link>
                     <Link href={"/contact_us"}>Contact us</Link>
