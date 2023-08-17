@@ -12,7 +12,7 @@ interface Props{
 const Newspaper = ({title, date, appreciations, feedbackMessages, content, buttonText}: Props)=>{
     return(
         <div className="w-full h-full flex flex-col items-start gap-2">
-            <div className="w-4/5  bg-[#f8f8f8]">
+            <div className="w-full md:w-4/5  bg-[#f8f8f8]">
                 <Image src={newOne} alt="student" className="w-full" />
             </div>
 
@@ -23,9 +23,9 @@ const Newspaper = ({title, date, appreciations, feedbackMessages, content, butto
                 <h5>{feedbackMessages} Feedback Messages</h5>
             </div>
 
-            <p className="w-4/5 leading-[3rem] py-2 text-[#434343d4]">{content}</p>
+            <p className="w-full md:w-4/5 leading-[3rem] py-2 text-[#434343d4]">{content}</p>
 
-            <button type="button" className="bg-[#523873] p-3 px-4 text-white rounded-lg">{buttonText}</button>
+            <button type="button" className="bg-[#523873] p-3 mb-4 md:mb-0 px-4 text-white rounded-lg">{buttonText}</button>
         </div>
     )
 }
