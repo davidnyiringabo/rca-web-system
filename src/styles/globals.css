@@ -8,7 +8,6 @@
 
   font-family: poppins !important;
   font-size: 12px;
-}
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -26,6 +25,24 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555;
 }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+}
+
 
 .lower-navbar{
   background: linear-gradient(180deg, #523873 0%, rgba(69, 69, 69, 0) 100%);
@@ -37,6 +54,9 @@ background-size:full;
 
 body{
   overflow-x: hidden;
-  /* font-family: 'Quicksand', sans-serif; */
   font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
 }

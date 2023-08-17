@@ -77,7 +77,7 @@ const Footer = ()=>{
                 </div>
             </div>
 
-            <div className="footer-footer w-full py-6 flex justify-between items-center px-12">
+            <div className="footer-footer w-full py-6 sm:flex justify-between items-center px-12">
                 <h5 className="text-sm">Copyright @ Rwanda Coding Academy. All rights reserved</h5>
                 <h5>Credits to this Platform <span className="text-[#523873] text-sm font-extrabold cursor-pointer">maintainers</span></h5>
             </div>

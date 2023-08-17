@@ -1,4 +1,4 @@
-import Hero from "@/src/components/Hero/Hero"
+// import Hero from "@/src/components/Hero/Hero"
 import Sidemenu from "@/src/components/Sidemenu/Sidemenu"
 import Footer from "@/src/components/Footer/Footer"
 import News from "./components/NewsComponent/NewsComponent"

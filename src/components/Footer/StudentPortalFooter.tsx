@@ -1,10 +1,10 @@
+import React from 'react'
 
-const StudentPortalFooter = ()=>{
-    return(
-        <div className="h-[20] w-full">
-            <h3>Credits to all this Platform Maintainers</h3>
-        </div>
-    )
+const StudentPortalFooter = () => {
+        return (
+                <div className='flex flex-row justify-between items-center mx-3  bg-[#D9D9D975] border-2 border-[#43434305] p-1 rounded-md h-[13vh]    w-100%'>
+                </div>
+        )
 }
 
 export default StudentPortalFooter
