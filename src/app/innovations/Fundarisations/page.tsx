@@ -1,9 +1,9 @@
 import Newspaper from "../../news/components/Newspaper/Newspaper"
 import Link from "next/link"
 import News from "../components/Publication/Publication"
-import newOne from "../../../assets/newOne.jpg"
-import newTwo from "../../../assets/newTwo.jpg"
-import newThree from "../../../assets/newThree.jpg"
+import newOne from "../../../assets/newOne.png"
+import newTwo from "../../../assets/newTwo.png"
+import newThree from "../../../assets/newThree.png"
 import Image from "next/image"
 
 const Research = ()=>{

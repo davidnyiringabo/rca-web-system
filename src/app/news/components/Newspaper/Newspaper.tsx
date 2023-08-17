@@ -1,6 +1,6 @@
 import Image from "next/image"
-// import newOne from "../../../../assets/newOne.jpg"import Image from "next/image"
-import newOne from "../../../../assets/newOne.jpg"
+// import newOne from "../../../../assets/newOne.png"import Image from "next/image"
+import newOne from "../../../../assets/newOne.png"
 interface Props{
     title: String, 
     date: String,

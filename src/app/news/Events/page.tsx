@@ -5,10 +5,10 @@ import News from "../components/NewsComponent/NewsComponent"
 import facebookIcon from "../../../assets/facebook.png"
 import Newspaper from "../components/Newspaper/Newspaper"
 import Link from "next/link"
-import newOne from "../../../assets/newOne.jpg"
-import newTwo from "../../../assets/newTwo.jpg"
-import newThree from "../../../assets/newThree.jpg"
-import newFour from "../../../assets/newFour.jpg"
+import newOne from "../../../assets/newOne.png"
+import newTwo from "../../../assets/newTwo.png"
+import newThree from "../../../assets/newThree.png"
+import newFour from "../../../assets/newFour.png"
 const About = () => {
 
     return (
