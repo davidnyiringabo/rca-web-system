@@ -2,7 +2,7 @@ import Hero from "@/src/components/Hero/Hero"
 import Sidemenu from "@/src/components/Sidemenu/Sidemenu"
 import Footer from "@/src/components/Footer/Footer"
 import studentsONe from "../../assets/newThree.jpg"
-import manyStudents from "../../assets/manyStudents.jpeg"
+import manyStudents from "../../assets/manyStudents.png"
 import Image from "next/image"
 const About = ()=>{
 
