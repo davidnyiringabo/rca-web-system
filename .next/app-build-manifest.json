@@ -1,25 +1,25 @@
 {
   "pages": {
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
+    ],
+    "/about_us/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about_us/layout.js"
     ],
     "/about_us/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/about_us/page.js"
     ],
-    "/about_us/layout": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about_us/layout.js"
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/campus_life/layout": [
       "static/chunks/webpack.js",
@@ -31,16 +31,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/campus_life/page.js"
     ],
-    "/academics/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/academics/layout.js"
-    ],
-    "/academics/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/academics/page.js"
-    ],
     "/news/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -50,6 +40,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/news/layout.js"
+    ],
+    "/academics/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/academics/page.js"
+    ],
+    "/academics/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/academics/layout.js"
     ],
     "/innovations/layout": [
       "static/chunks/webpack.js",
@@ -71,15 +71,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/admissions/layout.js"
     ],
-    "/alumni/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/alumni/page.js"
-    ],
     "/alumni/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/alumni/layout.js"
+    ],
+    "/alumni/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/alumni/page.js"
     ],
     "/campus_life/Academic/page": [
       "static/chunks/webpack.js",
@@ -90,11 +90,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/contact_us/page.js"
-    ],
-    "/contact_us/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact_us/layout.js"
     ],
     "/campus_life/Accomodation/page": [
       "static/chunks/webpack.js",
@@ -111,40 +106,50 @@
       "static/chunks/main-app.js",
       "static/chunks/app/about_us/StackHolders/page.js"
     ],
-    "/about_us/Accreditation/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about_us/Accreditation/page.js"
-    ],
     "/about_us/Organization/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/about_us/Organization/page.js"
+    ],
+    "/contact_us/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/contact_us/layout.js"
+    ],
+    "/about_us/Accreditation/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about_us/Accreditation/page.js"
     ],
     "/about_us/Strategy/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/about_us/Strategy/page.js"
     ],
+    "/about_us/High/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about_us/High/page.js"
+    ],
     "/about_us/Facts/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/about_us/Facts/page.js"
     ],
-    "/about_us/High/page": [
+    "/academics/Accomodation/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about_us/High/page.js"
+      "static/chunks/app/academics/Accomodation/page.js"
     ],
     "/academics/Student/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/academics/Student/page.js"
     ],
-    "/academics/Accomodation/page": [
+    "/academics/Academic/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/academics/Accomodation/page.js"
+      "static/chunks/app/academics/Academic/page.js"
     ]
   }
 }

@@ -1,12 +1,7 @@
 {
   "/academics/page": "app/academics/page.js",
-  "/about_us/Campuses/page": "app/about_us/Campuses/page.js",
-  "/about_us/Accreditation/page": "app/about_us/Accreditation/page.js",
-  "/about_us/StackHolders/page": "app/about_us/StackHolders/page.js",
-  "/about_us/Organization/page": "app/about_us/Organization/page.js",
-  "/about_us/Strategy/page": "app/about_us/Strategy/page.js",
-  "/about_us/High/page": "app/about_us/High/page.js",
   "/about_us/Facts/page": "app/about_us/Facts/page.js",
   "/academics/Student/page": "app/academics/Student/page.js",
+  "/about_us/Strategy/page": "app/about_us/Strategy/page.js",
   "/academics/Accomodation/page": "app/academics/Accomodation/page.js"
 }
