@@ -40,9 +40,33 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/image-component.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/newThree.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/newThree.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/manyStudents.png": {
+      "*": {
+        "id": "(sc_client)/./src/assets/manyStudents.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -155,30 +179,6 @@
     "(app-client)/./src/components/Navbar/Navbar.tsx": {
       "*": {
         "id": "(sc_client)/./src/components/Navbar/Navbar.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/page.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/newThree.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/newThree.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/manyStudents.png": {
-      "*": {
-        "id": "(sc_client)/./src/assets/manyStudents.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -307,11 +307,19 @@
       ],
       "async": false
     },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\page.tsx": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\node_modules\\next\\dist\\client\\image-component.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/news/Free/page:static/chunks/app/news/Free/page.js"
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
       ],
       "async": false
     },
@@ -319,7 +327,23 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/news/Free/page:static/chunks/app/news/Free/page.js"
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\newThree.png": {
+      "id": "(app-client)/./src/assets/newThree.png",
+      "name": "*",
+      "chunks": [
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\manyStudents.png": {
+      "id": "(app-client)/./src/assets/manyStudents.png",
+      "name": "*",
+      "chunks": [
+        "app/about_us/Facts/page:static/chunks/app/about_us/Facts/page.js"
       ],
       "async": false
     },
@@ -327,7 +351,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/news/Free/page:static/chunks/app/news/Free/page.js"
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
       ],
       "async": false
     },
@@ -335,7 +359,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/news/Free/page:static/chunks/app/news/Free/page.js"
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
       ],
       "async": false
     },
@@ -443,35 +467,11 @@
       ],
       "async": false
     },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\page.tsx": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\newThree.png": {
-      "id": "(app-client)/./src/assets/newThree.png",
-      "name": "*",
-      "chunks": [
-        "app/news/Free/page:static/chunks/app/news/Free/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\manyStudents.png": {
-      "id": "(app-client)/./src/assets/manyStudents.png",
-      "name": "*",
-      "chunks": [
-        "app/about_us/Facts/page:static/chunks/app/about_us/Facts/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\assets\\newOne.png": {
       "id": "(app-client)/./src/assets/newOne.png",
       "name": "*",
       "chunks": [
-        "app/news/Free/page:static/chunks/app/news/Free/page.js"
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
       ],
       "async": false
     },
@@ -479,7 +479,7 @@
       "id": "(app-client)/./src/assets/newTwo.png",
       "name": "*",
       "chunks": [
-        "app/news/Free/page:static/chunks/app/news/Free/page.js"
+        "app/innovations/Fundarisations/page:static/chunks/app/innovations/Fundarisations/page.js"
       ],
       "async": false
     },
@@ -487,7 +487,7 @@
       "id": "(app-client)/./src/assets/newFour.png",
       "name": "*",
       "chunks": [
-        "app/news/Free/page:static/chunks/app/news/Free/page.js"
+        "app/news/Notice/page:static/chunks/app/news/Notice/page.js"
       ],
       "async": false
     }
@@ -496,42 +496,40 @@
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\layout": [
       "static/css/app/layout.css"
     ],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\layout": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\layout": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\campus_life\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\campus_life\\layout": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\news\\layout": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\layout": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\news\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\news\\layout": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\admissions\\layout": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\admissions\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\layout": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\admissions\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\alumni\\layout": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\contact_us\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\admissions\\layout": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\alumni\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\contact_us\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\alumni\\layout": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\contact_us\\layout": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\campus_life\\Academic\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\Campuses\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\campus_life\\Accomodation\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\Organization\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\StackHolders\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\High\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\Organization\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\Campuses\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\Accreditation\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\Strategy\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\Accomodation\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\High\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\about_us\\Facts\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\Student\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\Academic\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\School\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\Sports\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\academics\\Gallery\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\news\\Campus\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\news\\In\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\news\\Events\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\news\\Free\\page": [],
     "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\news\\Notice\\page": [],
-    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\news\\Free\\page": []
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\Research\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\Startups\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\innovations\\Fundarisations\\page": [],
+    "C:\\Users\\David\\Desktop\\frontEnd-service\\frontEnd-service\\src\\app\\campus_life\\Student\\page": []
   }
 }
