@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="upper-container w-full sm:flex justify-between px-9 py-2">
                 <Link className="text-lg" href={"/"}>Welcome to <span className="text-purpleColor">Rwanda Coding Academy</span></Link>
 
-                <span className="flex gap-1"><Link href={"/"}>Student</Link> / <Link href={"/"}>Staff Portal</Link></span>
+                <span className="flex gap-1"><Link href={"https://rca-student.vercel.app/"}>Student</Link> / <Link href={"https://mis-app-lake.vercel.app/"}>Staff Portal</Link></span>
             </div>
             <div className="w-full flex justify-between lg:px-6 md:px-1  lower-navbar py-6 items-center text-white">
                 <Link href={"/"}><Image src={logo} alt={""} /></Link>

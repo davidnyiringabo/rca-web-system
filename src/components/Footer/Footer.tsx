@@ -15,7 +15,7 @@ import Link from "next/link"
 
 const Footer = ()=>{
     return(
-        <div className="w-full flex flex-col bg-[#F3F4F8]">
+        <div className="w-full flex flex-col bg-[#F3F4F8] mt-[12rem]">
             <div className="upper-container border-b ">
                 <div className="linkes-container  flex flex-col md:flex-row w-full items-center md:items-start gap-4 md:justify-evenly p-7 h-[85%]">
                     <div className="flex items-start w-full justify-evenly  md:w-1/3 md:justify-between">
@@ -71,14 +71,14 @@ const Footer = ()=>{
                    <h5><Image src={slackIcon} alt=""/></h5> 
                    <h5><Image src={twitterIcon} alt=""/></h5> 
                    <h5><Image src={snapchatIcon} alt=""/></h5> 
-                   <h5><Image src={whatsappIcon} alt=""/></h5> 
+                   <h5><Image src={whatsappIcon} alt=""/></h5>
                    <h5><Image src={evernoteIcon} alt=""/></h5> 
                    <h5><Image src={productIcon} alt=""/></h5>
                 </div>
             </div>
 
             <div className="footer-footer w-full py-6 sm:flex justify-between items-center px-12">
-                <h5 className="text-sm">Copyright @ Rwanda Coding Academy. All rights reserved</h5>
+                <h5 className="text-sm">Copyright @ <span className="font-semibold">Rwanda Coding Academy.</span> All rights reserved</h5>
                 <h5>Credits to this Platform <span className="text-[#523873] text-sm font-extrabold cursor-pointer">maintainers</span></h5>
             </div>
         </div>

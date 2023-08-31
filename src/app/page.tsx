@@ -3,7 +3,7 @@ import Button from "../components/Button";
 import Slider from "react-touch-drag-slider";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import "../styles/globals.css";
+// import "../styles/globals.css";
 import risa from "../assets/RISALogo.png";
 import rtb from "../assets/logo2.png";
 import giz from "../assets/gizLogo.png";
@@ -113,13 +113,13 @@ const HomePage = () => {
           <p className="font-semibold text-white text-xl sm:text-2xl md:text-4xl lg:text-6xl">
             Rwanda Coding Academy
           </p>
-          <p className="text-white text-sm sm:text-sm md:text-md lg:text-lg p-">
+          <p className="mt-[200px] text-white text-sm sm:text-sm md:text-md lg:text-lg">
             Fueling Rwanda's tech revolution! Open to all Rwandans post ordinary
             level. Elevate your prospects at the esteemed Rwanda Coding
             Academy—a beacon of excellence nationwide, nestled in Nyabihu
             District, Western Province
           </p>
-          <div className="md:flex w-full md:w-11/12 lg:w-2/3 xl:w-1/2 gap-12 sm:translate-y-8 md:translate-y-12 lg:-translate-y-8 space-y-2 md:space-y-0 mx-0 ">
+          <div className="md:flex w-full md:w-11/12 lg:w-2/3 xl:w-1/2 gap-12 sm:translate-y-8 md:translate-y-12 lg:-translate-y-8 space-y-2 md:space-y-0 mx-0">
             <Button
               text="View Academic Structure"
               className="bg-purpleColor md:p-4 xl:px-16 px-4 sm:px-14 rounded-lg text-white p-2 "
@@ -163,9 +163,9 @@ const HomePage = () => {
           </div>
         </div>
         <div className="w-full lg:flex ">
-          <div className="basis-1/2 bg-white relative py-12 px-12 sm:px-28 ">
-            <div className="h-[315px]  sm:h-[450px] md:h-[630px] lg:h-[430px] w-[290px] sm:w-[390px] md:w-[450px] lg:w-[320px] xl:w-[581px] relative">
-              <Image src={mainImg} fill alt="img1" />
+          <div className="basis-1/2 md:ml-[-20px] bg-white relative pt-12 pb-16 px-12 sm:px-28 ">
+            <div className="h-[315px] sm:h-[450px] md:h-[630px] lg:h-[430px] w-[290px] sm:w-[390px] md:w-[450px] lg:w-[320px] xl:w-[571px] relative">
+              <Image src={mainImg} fill alt="img1" className="rounded-lg"/>
             </div>
             <div className="h-[200px] sm:h-[320px] lg:h-[190px] md:h-[400px] xl:h-[270px] w-[157px] sm:w-[277px] md:w-[304px] lg:w-[250px] xl:w-[404px] absolute z-20 -translate-y-[270px] lg:-translate-y-[270px] sm:-translate-y-[390px] md:-translate-y-[550px] xl:-translate-y-[350px] translate-x-[175px] md:translate-x-[320px] lg:translate-x-[150px] xl:translate-x-[250px] border-8 rounded border-white ">
               <Image src={img2} alt="img2" className="rounded-2xl" fill />
