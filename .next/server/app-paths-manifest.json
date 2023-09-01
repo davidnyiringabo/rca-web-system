@@ -1,9 +1,8 @@
 {
-  "/campus_life/Accomodation/page": "app/campus_life/Accomodation/page.js",
-  "/campus_life/School/page": "app/campus_life/School/page.js",
-  "/campus_life/Sports/page": "app/campus_life/Sports/page.js",
-  "/contact_us/Contacts/page": "app/contact_us/Contacts/page.js",
-  "/campus_life/Galley/page": "app/campus_life/Galley/page.js",
-  "/campus_life/Student/page": "app/campus_life/Student/page.js",
-  "/campus_life/Academic/page": "app/campus_life/Academic/page.js"
+  "/contact_us/page": "app/contact_us/page.js",
+  "/admissions/Admission/page": "app/admissions/Admission/page.js",
+  "/contact_us/Google/page": "app/contact_us/Google/page.js",
+  "/admissions/When/page": "app/admissions/When/page.js",
+  "/admissions/Responsible/page": "app/admissions/Responsible/page.js",
+  "/contact_us/FAQ/page": "app/contact_us/FAQ/page.js"
 }
