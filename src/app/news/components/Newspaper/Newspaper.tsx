@@ -13,7 +13,7 @@ const Newspaper = ({title, date, appreciations, feedbackMessages, content, butto
     return(
         <div className="w-full h-full flex flex-col items-start gap-2">
             <div className="w-full md:w-4/5  bg-[#f8f8f8]">
-                <Image src={newOne} alt="student" className="w-full" />
+                <Image src={newOne} alt="student" className="w-full rounded-lg" />
             </div>
 
             <h4 className="text-2xl font-bold">{title}</h4>

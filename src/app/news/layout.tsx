@@ -17,6 +17,7 @@ export default function PageLayout({
                 
                 {children}
         </div>
+        <Footer/>
       </>
     )
   }

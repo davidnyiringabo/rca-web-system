@@ -45,7 +45,7 @@ const Navbar = () => {
                 {/* </div> */}  
             </div>
             {showMenu &&(
-            <div className=" flex flex-col md:hidden bg-white z-40 divide-y-2 flex flex-col space-y-2 z-20">
+            <div className=" flex flex-col md:hidden bg-white z-40 divide-y-2 flex flex-col space-y-2 z-20 mb-4">
                     <Link href={"/about_us"}>
                         About us
                     </Link>
