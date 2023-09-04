@@ -11,7 +11,7 @@ interface Props {
 const Sidemenu = ({tabs, parent}: Props)=>{
 
     const [activeTab, setActiveTab] = useState(tabs[0])
-    const [openSidebar,setOpenSidebar] = useState(false)
+    const [openSidebar,setOpenSidebar] = useState(true)
 
     return(
         <>
