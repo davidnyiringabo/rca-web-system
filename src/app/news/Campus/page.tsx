@@ -31,13 +31,14 @@ export const getStaticProps = async ()=>{
             authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlcyI6W3siY3JlYXRlZEF0IjoiMjAyMy0wOS0wM1QxOTozMjozNS4zOTlaIiwidXBkYXRlZEF0IjoiMjAyMy0wOS0wM1QyMTozMzowMC40ODlaIiwiaWQiOjEsInJvbGVfbmFtZSI6IlNUVURFTlQifV0sImlkIjoxLCJuYXRpb25hbF9pZCI6IjgyNzQwOTcyMDM0NzA0NzkiLCJpYXQiOjE2OTM3Nzk5NDMsImV4cCI6MTY5Mzc4MDU0M30.-F-L8hJH9ZrcR75v696NT0-S1zZeldvX4AG4KGCUVbI"
         }
     })
+    const newsData = res;
     return{
-        props: {news: res}
+        props: {news: newsData}
     }
 }
 
 const About = ({news}: Props) => {
-    console.log("news noted")
+    console.log("news noted", news)
     let newsArray = news || [
         {
             image: newOne,
@@ -91,6 +92,7 @@ const About = ({news}: Props) => {
     //     },
     // ]
     const [newsPaper, setNewsPaper] = useState(newsArray[0])
+    console.log(newsArray, newsPaper)
 
     return (
         <div className="flex flex-col w-full md:flex-row">
