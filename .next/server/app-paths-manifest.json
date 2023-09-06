@@ -1,4 +1,9 @@
 {
-  "/page": "app/page.js",
-  "/news/page": "app/news/page.js"
+  "/admissions/page": "app/admissions/page.js",
+  "/campus_life/page": "app/campus_life/page.js",
+  "/campus_life/Gallery/page": "app/campus_life/Gallery/page.js",
+  "/campus_life/Student/page": "app/campus_life/Student/page.js",
+  "/admissions/When/page": "app/admissions/When/page.js",
+  "/admissions/Admission/page": "app/admissions/Admission/page.js",
+  "/campus_life/Academic/page": "app/campus_life/Academic/page.js"
 }

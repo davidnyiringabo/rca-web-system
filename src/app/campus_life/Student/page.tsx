@@ -1,10 +1,9 @@
 const Academics = ()=>{
     return(
-        <div className="flex h-[110vh] flex-col pl-9">
+        <div className="flex h-[110vh] w-full flex-col pl-9">
 
             <h5 className="font-extrabold  mb-4">Admissions   &gt;   <span className="text-[#523873]">Student activity</span></h5>
-            <p className="leading-[2rem]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
-            <p className="leading-[2rem]">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons, adipisci velit, sed quia non numquam eius modi ullma tempora incidunt ut labore et dolore magnam aliquam</p>
+            <p className="leading-[2rem]">At Rwanda Coding Academy, we believe in nurturing well-rounded individuals. In addition to our rigorous coding curriculum, we offer a diverse range of extracurricular activities that encourage students to explore their interests and develop essential life skills. From hackathons and coding competitions to sports, cultural events, and community service initiatives, our students have the opportunity to engage in a variety of activities that promote teamwork, creativity, and personal growth. These activities not only complement their technical education but also help them become confident, socially-aware, and responsible individuals ready to make a positive impact on society.</p>
 
 
             <div className="w-full flex flex-col md:flex-row justify-between mt-4">

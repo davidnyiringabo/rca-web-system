@@ -4,11 +4,18 @@ interface Props{
     date: String,
     title: string, 
     content: String
-    image:StaticImageData
+    image:StaticImageData,
+    setPublication: Function
 }
-const NewsComponent = ({date, title, content,image}: Props)=>{
+const NewsComponent = ({date, title, content,image, setPublication}: Props)=>{
+    const publication = {
+        date: date,
+        title: title, 
+        content: content,
+        image,
+    }
     return(
-        <div className="w-full h-[380px] my-4 flex justify-between items-center border border-[#ccc] py-1 px-1 rounded-lg flex-col">
+        <div className="w-full h-[380px] my-4 flex justify-between items-center border border-[#ccc] py-1 px-1 rounded-lg flex-col" onClick={()=> setPublication(publication)}>
             <div className="w-full h-3/5 rounded-lg bg-[#f8f8f8]">
                 <Image src={image} alt={title} className="w-full h-full rounded-lg"/>
             </div>
