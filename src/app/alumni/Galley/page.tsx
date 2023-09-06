@@ -1,12 +1,9 @@
 const Alumni = ()=>{
     return(
-        <div className="flex h-[110vh] flex-col pl-9">
+        <div className="flex h-[110vh] w-full flex-col pl-9">
 
             <h5 className="font-extrabold  mb-4">Alumni   &gt;   <span className="text-[#523873]">Alumni Association</span></h5>
-            <p className="leading-[2rem]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
-            <p className="leading-[2rem]">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons, adipisci velit, sed quia non numquam eius modi ullma tempora incidunt ut labore et dolore magnam aliquam</p>
-            <p className="leading-[2rem]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
-            <p className="leading-[2rem]">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons, adipisci velit, sed quia non numquam eius modi ullma tempora incidunt ut labore et dolore magnam aliquam</p>
+            <p className="leading-[2rem]">Explore our captivating gallery and videos featuring the remarkable journeys of our alumni who have graduated from Rwanda Coding Academy. Our gallery showcases inspiring images that capture alumni achievements, community involvement, and career milestones. The videos provide dynamic insights into the diverse career paths our alumni have pursued, their innovative projects, and the impact they've made in the tech industry and beyond. These visual resources offer a compelling narrative of success, showcasing the transformative experiences and accomplishments of our talented and forward-thinking graduates.</p>
             <div className="w-full flex justify-between                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
                 <div></div>
                 <div></div>

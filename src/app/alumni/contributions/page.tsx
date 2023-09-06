@@ -1,12 +1,9 @@
 const Alumni = ()=>{
     return(
-        <div className="flex h-[110vh] flex-col pl-9">
+        <div className="flex h-[110vh] w-full flex-col pl-9">
 
             <h5 className="font-extrabold  mb-4">Alumni   &gt;   <span className="text-[#523873]">Alumni Association</span></h5>
-            <p className="leading-[2rem]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
-            <p className="leading-[2rem]">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons, adipisci velit, sed quia non numquam eius modi ullma tempora incidunt ut labore et dolore magnam aliquam</p>
-            <p className="leading-[2rem]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et Quasi architecto beatae vitae dicta sunt explicabo. Quis nostrud kemmith exercitation ullamco laboris nisi ut aliquip.</p>
-            <p className="leading-[2rem]">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, cons, adipisci velit, sed quia non numquam eius modi ullma tempora incidunt ut labore et dolore magnam aliquam</p>
+            <p className="leading-[2rem]">Rwanda Coding Academy takes immense pride in the contributions of its alumni to the tech industry and society at large. Our graduates are making a significant impact as software engineers, entrepreneurs, innovators, and leaders in various technology-related fields. They've developed groundbreaking apps, launched successful startups, and worked for globally renowned tech companies, all while embodying the ethos of excellence, innovation, and social responsibility instilled during their time at the academy. Beyond their professional accomplishments, our alumni often give back by mentoring current students, participating in outreach programs, and actively contributing to Rwanda's vibrant tech ecosystem, further solidifying their status as inspirational role models.</p>
             <div className="w-full flex justify-between                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
                 <div></div>
                 <div></div>

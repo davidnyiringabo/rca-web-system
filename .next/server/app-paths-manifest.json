@@ -1,8 +1,7 @@
 {
-  "/campus_life/page": "app/campus_life/page.js",
-  "/admissions/page": "app/admissions/page.js",
-  "/campus_life/Student/page": "app/campus_life/Student/page.js",
-  "/admissions/When/page": "app/admissions/When/page.js",
-  "/admissions/Admission/page": "app/admissions/Admission/page.js",
-  "/admissions/Responsible/page": "app/admissions/Responsible/page.js"
+  "/alumni/page": "app/alumni/page.js",
+  "/contact_us/page": "app/contact_us/page.js",
+  "/contact_us/FAQ/page": "app/contact_us/FAQ/page.js",
+  "/alumni/Galley/page": "app/alumni/Galley/page.js",
+  "/contact_us/Contacts/page": "app/contact_us/Contacts/page.js"
 }

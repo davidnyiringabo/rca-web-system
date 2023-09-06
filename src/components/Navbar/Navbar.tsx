@@ -33,9 +33,9 @@ const Navbar = () => {
                     <Link href={"/contact_us"}>Contact&nbsp;us</Link>
                 </div>
 
-                <div className=" py-2 md:px-1 lg:px-4 bg-[#D9D9D9] rounded-md cursor-pointer">
-                    {/* <input className="w-12 py-2 px-4 bg-[#D9D9D9] rounded-md cursor-pointer focus:w-full outline-none text-black" /> */}
-                    <Image src={search} alt=""/>
+                <div className=" py-2 md:px-1 lg:px-4 rounded-md cursor-pointer">
+                    <input className="w-[30px] focus:w-full py-2 md:px-1 lg:px-4 bg-[#D9D9D9] rounded-md cursor-pointer"/>
+                        {/* <Image src={search} alt=""/> */}
                 </div>
                 <div className="text-2xl md:hidden hover:cursor-pointer" onClick={()=>handleMenu()}>
                     {showMenu?(<AiFillCloseCircle />):(  <AiOutlineMenu />)}

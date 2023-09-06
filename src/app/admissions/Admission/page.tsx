@@ -1,6 +1,6 @@
 const Academics = ()=>{
     return(
-        <div className="flex h-[110vh] flex-col pl-9">
+        <div className="flex h-[110vh] w-full flex-col pl-9">
 
             <h5 className="font-extrabold  mb-4">Admissions   &gt;   <span className="text-[#523873]">Admissions</span></h5>
             <p className="leading-[2rem]">Students admitted to Rwanda Coding Academy are selected by Rwanda Education Board through the normal process of student placement. Rwanda Coding Academy is listed amongst the schools students leaving Ordinary Level can choose from, and after the publication of National Examination Results, only the qualified are chosen.</p>
